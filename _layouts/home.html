@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ site.title }} - {{ site.description }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <meta name="keywords" content="Clash 免费节点, Clash 代理节点, Clash 订阅链接, Clashmeta, 飞机场节点, 小火箭节点, Shadowrocket 节点, 翻墙机场, 机场节点推荐">
+    
+    <!-- SEO 标签 -->
+    {% seo %}
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- 样式表 -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    {% include navigation.html %}
+    
+    <!-- Hero 部分 -->
+    <section class="hero" style="background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%); color: white; padding: 80px 20px; text-align: center;">
+        <div class="container">
+            <h1 style="font-size: 48px; margin: 0 0 20px 0; font-family: 'Poppins', sans-serif; font-weight: 700;">Clash 免费节点分享</h1>
+            <p style="font-size: 20px; margin: 0 0 30px 0; opacity: 0.9;">最新的 Clash 免费节点、代理节点、订阅链接、教程和配置指南</p>
+            <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+                <a href="/tutorials" style="background: #f97316; color: white; padding: 12px 32px; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s;">📚 查看教程</a>
+                <a href="/articles" style="background: rgba(255,255,255,0.2); color: white; padding: 12px 32px; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s; border: 2px solid white;">📰 最新资讯</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 关键词展示 -->
+    <section style="padding: 60px 20px; background: #f9fafb; border-bottom: 1px solid #e5e7eb;">
+        <div class="container" style="max-width: 1200px;">
+            <h2 style="text-align: center; font-size: 28px; margin: 0 0 40px 0; font-family: 'Poppins', sans-serif;">热门搜索</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px;">
+                {% assign keywords = "Clash 免费节点,Clash 代理节点,Clash 节点,Clashmeta,飞机场节点,小火箭节点,Shadowrocket 节点,Clash 订阅链接,Clash 节点分享,Clash 安卓配置,Clash for Android,翻墙机场,机场节点推荐" | split: "," %}
+                {% for keyword in keywords %}
+                <a href="/search?q={{ keyword | url_encode }}" style="display: block; padding: 16px; background: white; border: 1px solid #e5e7eb; border-radius: 8px; text-decoration: none; color: #1e40af; text-align: center; font-weight: 500; transition: all 0.3s; cursor: pointer;">
+                    🔍 {{ keyword }}
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+    
+    <!-- 热门教程 -->
+    <section style="padding: 60px 20px; background: white;">
+        <div class="container" style="max-width: 1200px;">
+            <h2 style="font-size: 28px; margin: 0 0 40px 0; font-family: 'Poppins', sans-serif;">📚 热门教程</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px;">
+                {% assign tutorials = site.tutorials | sort: 'date' | reverse | slice: 0, 6 %}
+                {% for tutorial in tutorials %}
+                <div style="border: 1px solid #e5e7eb; border-radius: 12px; overflow: hidden; transition: all 0.3s; cursor: pointer;">
+                    <div style="background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%); height: 200px; display: flex; align-items: center; justify-content: center; color: white; font-size: 48px;">
+                        {{ tutorial.icon | default: '📖' }}
+                    </div>
+                    <div style="padding: 24px;">
+                        <h3 style="margin: 0 0 12px 0; font-size: 18px; font-family: 'Poppins', sans-serif;">
+                            <a href="{{ tutorial.url }}" style="color: #1e40af; text-decoration: none;">{{ tutorial.title }}</a>
+                        </h3>
+                        <p style="margin: 0 0 16px 0; color: #6b7280; font-size: 14px; line-height: 1.6;">{{ tutorial.description | truncate: 100 }}</p>
+                        <a href="{{ tutorial.url }}" style="color: #f97316; text-decoration: none; font-weight: 600; font-size: 14px;">阅读教程 →</a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="/tutorials" style="background: #1e40af; color: white; padding: 12px 32px; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block;">查看全部教程</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 最新文章 -->
+    <section style="padding: 60px 20px; background: #f9fafb;">
+        <div class="container" style="max-width: 1200px;">
+            <h2 style="font-size: 28px; margin: 0 0 40px 0; font-family: 'Poppins', sans-serif;">📰 最新资讯</h2>
+            <div style="display: grid; gap: 24px;">
+                {% assign posts = site.posts | sort: 'date' | reverse | slice: 0, 5 %}
+                {% for post in posts %}
+                <article style="background: white; padding: 24px; border-radius: 12px; border-left: 4px solid #1e40af; transition: all 0.3s;">
+                    <div style="display: flex; justify-content: space-between; align-items: start; gap: 16px;">
+                        <div style="flex: 1;">
+                            <h3 style="margin: 0 0 12px 0; font-size: 20px; font-family: 'Poppins', sans-serif;">
+                                <a href="{{ post.url }}" style="color: #1e40af; text-decoration: none;">{{ post.title }}</a>
+                            </h3>
+                            <div style="display: flex; gap: 16px; font-size: 13px; color: #6b7280; margin-bottom: 12px;">
+                                <span>📅 {{ post.date | date: "%Y 年 %m 月 %d 日" }}</span>
+                                {% if post.category %}
+                                <span style="background: #fed7aa; color: #f97316; padding: 2px 8px; border-radius: 4px;">{{ post.category }}</span>
+                                {% endif %}
+                            </div>
+                            <p style="margin: 0; color: #374151; line-height: 1.6; font-size: 14px;">
+                                {% if post.excerpt %}
+                                    {{ post.excerpt | strip_html | truncate: 150 }}
+                                {% elsif post.description %}
+                                    {{ post.description | strip_html | truncate: 150 }}
+                                {% else %}
+                                    {{ post.content | strip_html | truncate: 150 }}
+                                {% endif %}
+                            </p>
+                        </div>
+                    </div>
+                    <a href="{{ post.url }}" style="display: inline-block; margin-top: 12px; color: #f97316; text-decoration: none; font-weight: 600; font-size: 13px;">阅读全文 →</a>
+                </article>
+                {% endfor %}
+            </div>
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="/articles" style="background: #1e40af; color: white; padding: 12px 32px; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block;">查看全部文章</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 页脚 -->
+    {% include footer.html %}
+    
+    <!-- 脚本 -->
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>

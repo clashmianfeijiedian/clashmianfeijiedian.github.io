@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}Clash 免费节点, Clash 代理节点, Clash 订阅链接, Clashmeta, 飞机场节点, 小火箭节点, Shadowrocket 节点, 翻墙机场{% endif %}">
+    
+    <!-- SEO 标签 -->
+    {% seo %}
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- 样式表 -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' font-weight='bold' fill='%231e40af'>C</text></svg>">
+</head>
+<body>
+    <!-- 导航栏 -->
+    {% include navigation.html %}
+    
+    <!-- 主要内容 -->
+    <main>
+        {{ content }}
+    </main>
+    
+    <!-- 页脚 -->
+    {% include footer.html %}
+    
+    <!-- 脚本 -->
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+# Jekyll 配置
+title: Clash 免费节点分享站
+description: 最新的 Clash 免费节点、代理节点、订阅链接分享，包含详细的教程和配置指南
+url: https://clashmianfeijiedian.github.io
+baseurl: ""
+
+# 主题设置
+theme: null
+remote_theme: null
+
+# 插件
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+
+# 分页设置
+paginate: 10
+paginate_path: "/page/:num/"
+
+# 输出设置
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# 集合设置
+collections:
+  tutorials:
+    output: true
+    permalink: /tutorials/:name/
+
+# 默认前置数据
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Clash 资讯站"
+      category: "教程"
+  - scope:
+      path: ""
+      type: "tutorials"
+    values:
+      layout: "tutorial"
+
+# SEO 设置
+social:
+  name: Clash 免费节点分享站
+  links:
+    - https://github.com/clashmianfeijiedian
+
+# 其他设置
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ page.content | strip_html | truncate: 160 }}{% endif %}">
+    <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}Clash, 免费节点, 代理{% endif %}">
+    
+    <!-- SEO 标签 -->
+    {% seo %}
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- 样式表 -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    {% include navigation.html %}
+    
+    <!-- 面包屑导航 -->
+    <div style="padding: 16px 0; background: #f9fafb; border-bottom: 1px solid #e5e7eb;">
+        <div class="container" style="font-size: 14px; color: #6b7280;">
+            <a href="/" style="color: #1e40af; text-decoration: none;">首页</a>
+            <span style="margin: 0 8px;">/</span>
+            <a href="/articles" style="color: #1e40af; text-decoration: none;">文章</a>
+            <span style="margin: 0 8px;">/</span>
+            <span>{{ page.title }}</span>
+        </div>
+    </div>
+    
+    <!-- 文章头部 -->
+    <section style="padding: 60px 20px; background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%); color: white;">
+        <div class="container" style="max-width: 800px;">
+            <h1 style="margin: 0 0 20px 0; font-size: 36px; font-family: 'Poppins', sans-serif; font-weight: 700;">{{ page.title }}</h1>
+            <div style="display: flex; gap: 20px; font-size: 14px; opacity: 0.9;">
+                <span>📅 {{ page.date | date: "%Y 年 %m 月 %d 日" }}</span>
+                <span>✍️ {% if page.author %}{{ page.author }}{% else %}Clash 资讯站{% endif %}</span>
+                {% if page.category %}
+                <span style="background: #fed7aa; color: #f97316; padding: 2px 8px; border-radius: 4px;">{{ page.category }}</span>
+                {% endif %}
+            </div>
+        </div>
+    </section>
+    
+    <!-- 文章内容 -->
+    <section style="padding: 60px 20px; background: white;">
+        <div style="max-width: 800px; margin: 0 auto;">
+            <article style="color: #374151; line-height: 1.8; font-size: 16px;">
+                {{ content }}
+            </article>
+            
+            <!-- 文章底部 -->
+            <div style="margin-top: 60px; padding-top: 30px; border-top: 1px solid #e5e7eb;">
+                <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px;">
+                    <div>
+                        <p style="margin: 0 0 8px 0; color: #6b7280; font-size: 14px;">分享这篇文章</p>
+                        <div style="display: flex; gap: 12px;">
+                            <a href="https://www.weibo.com/login.php" style="display: inline-block; width: 40px; height: 40px; background: #1e40af; color: white; border-radius: 50%; text-align: center; line-height: 40px; text-decoration: none; font-weight: 600;">微</a>
+                            <a href="https://www.wechat.com" style="display: inline-block; width: 40px; height: 40px; background: #1e40af; color: white; border-radius: 50%; text-align: center; line-height: 40px; text-decoration: none; font-weight: 600;">微</a>
+                            <button onclick="copyLink()" style="display: inline-block; width: 40px; height: 40px; background: #1e40af; color: white; border-radius: 50%; border: none; cursor: pointer; font-weight: 600;">链</button>
+                        </div>
+                    </div>
+                    <div style="text-align: right;">
+                        <a href="/articles" style="color: #1e40af; text-decoration: none; font-weight: 600;">← 返回文章列表</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 相关文章 -->
+    <section style="padding: 60px 20px; background: #f9fafb;">
+        <div class="container" style="max-width: 1000px;">
+            <h2 style="font-size: 24px; margin: 0 0 30px 0; font-family: 'Poppins', sans-serif;">📖 相关文章</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+                {% assign related = site.posts | where: "category", page.category | where_exp: "post", "post.url != page.url" | sort: 'date' | reverse | slice: 0, 3 %}
+                {% if related.size > 0 %}
+                    {% for post in related %}
+                    <article style="background: white; padding: 20px; border-radius: 8px; border-left: 4px solid #1e40af;">
+                        <h3 style="margin: 0 0 12px 0; font-size: 16px; font-family: 'Poppins', sans-serif;">
+                            <a href="{{ post.url }}" style="color: #1e40af; text-decoration: none;">{{ post.title }}</a>
+                        </h3>
+                        <p style="margin: 0 0 12px 0; font-size: 13px; color: #6b7280;">{{ post.date | date: "%Y 年 %m 月 %d 日" }}</p>
+                        <a href="{{ post.url }}" style="color: #f97316; text-decoration: none; font-weight: 600; font-size: 13px;">阅读 →</a>
+                    </article>
+                    {% endfor %}
+                {% else %}
+                    <p style="color: #6b7280; grid-column: 1 / -1;">暂无相关文章</p>
+                {% endif %}
+            </div>
+        </div>
+    </section>
+    
+    <!-- 页脚 -->
+    {% include footer.html %}
+    
+    <!-- 脚本 -->
+    <script>
+    function copyLink() {
+        const url = window.location.href;
+        navigator.clipboard.writeText(url).then(() => {
+            alert('链接已复制到剪贴板！');
+        });
+    }
+    </script>
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>

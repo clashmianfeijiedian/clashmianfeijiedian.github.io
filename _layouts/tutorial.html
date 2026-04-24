@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ page.content | strip_html | truncate: 160 }}{% endif %}">
+    <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}Clash 教程, 配置指南{% endif %}">
+    
+    <!-- SEO 标签 -->
+    {% seo %}
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- 样式表 -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    {% include navigation.html %}
+    
+    <!-- 面包屑导航 -->
+    <div style="padding: 16px 0; background: #f9fafb; border-bottom: 1px solid #e5e7eb;">
+        <div class="container" style="font-size: 14px; color: #6b7280;">
+            <a href="/" style="color: #1e40af; text-decoration: none;">首页</a>
+            <span style="margin: 0 8px;">/</span>
+            <a href="/tutorials" style="color: #1e40af; text-decoration: none;">教程</a>
+            <span style="margin: 0 8px;">/</span>
+            <span>{{ page.title }}</span>
+        </div>
+    </div>
+    
+    <!-- 教程头部 -->
+    <section style="padding: 60px 20px; background: linear-gradient(135deg, #f97316 0%, #ea580c 100%); color: white;">
+        <div class="container" style="max-width: 900px;">
+            <div style="text-align: center;">
+                <div style="font-size: 64px; margin-bottom: 20px;">{{ page.icon | default: '📖' }}</div>
+                <h1 style="margin: 0 0 20px 0; font-size: 40px; font-family: 'Poppins', sans-serif; font-weight: 700;">{{ page.title }}</h1>
+                <p style="margin: 0; font-size: 18px; opacity: 0.9;">{{ page.description }}</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 教程内容 -->
+    <section style="padding: 60px 20px; background: white;">
+        <div style="max-width: 900px; margin: 0 auto;">
+            <!-- 目录 -->
+            {% if page.toc %}
+            <div style="background: #f9fafb; padding: 24px; border-radius: 8px; margin-bottom: 40px; border-left: 4px solid #f97316;">
+                <h3 style="margin: 0 0 16px 0; font-family: 'Poppins', sans-serif; font-size: 16px;">📑 目录</h3>
+                <ul style="margin: 0; padding-left: 20px; list-style: none;">
+                    {% for item in page.toc %}
+                    <li style="margin: 8px 0;"><a href="#{{ item | slugify }}" style="color: #1e40af; text-decoration: none;">{{ item }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
+            
+            <!-- 教程正文 -->
+            <article style="color: #374151; line-height: 1.8; font-size: 16px;">
+                {{ content }}
+            </article>
+            
+            <!-- 教程底部 -->
+            <div style="margin-top: 60px; padding-top: 30px; border-top: 1px solid #e5e7eb;">
+                <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px;">
+                    <div>
+                        <p style="margin: 0 0 8px 0; color: #6b7280; font-size: 14px;">分享这个教程</p>
+                        <div style="display: flex; gap: 12px;">
+                            <a href="https://www.weibo.com/login.php" style="display: inline-block; width: 40px; height: 40px; background: #f97316; color: white; border-radius: 50%; text-align: center; line-height: 40px; text-decoration: none; font-weight: 600;">微</a>
+                            <a href="https://www.wechat.com" style="display: inline-block; width: 40px; height: 40px; background: #f97316; color: white; border-radius: 50%; text-align: center; line-height: 40px; text-decoration: none; font-weight: 600;">微</a>
+                            <button onclick="copyLink()" style="display: inline-block; width: 40px; height: 40px; background: #f97316; color: white; border-radius: 50%; border: none; cursor: pointer; font-weight: 600;">链</button>
+                        </div>
+                    </div>
+                    <div style="text-align: right;">
+                        <a href="/tutorials" style="color: #f97316; text-decoration: none; font-weight: 600;">← 返回教程列表</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 其他教程 -->
+    <section style="padding: 60px 20px; background: #f9fafb;">
+        <div class="container" style="max-width: 1000px;">
+            <h2 style="font-size: 24px; margin: 0 0 30px 0; font-family: 'Poppins', sans-serif;">📚 其他教程</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+                {% assign other_tutorials = site.tutorials | where_exp: "tutorial", "tutorial.url != page.url" | sort: 'date' | reverse | slice: 0, 3 %}
+                {% if other_tutorials.size > 0 %}
+                    {% for tutorial in other_tutorials %}
+                    <div style="background: white; padding: 24px; border-radius: 8px; border-top: 4px solid #f97316;">
+                        <div style="font-size: 40px; margin-bottom: 12px;">{{ tutorial.icon | default: '📖' }}</div>
+                        <h3 style="margin: 0 0 12px 0; font-size: 16px; font-family: 'Poppins', sans-serif;">
+                            <a href="{{ tutorial.url }}" style="color: #1e40af; text-decoration: none;">{{ tutorial.title }}</a>
+                        </h3>
+                        <p style="margin: 0 0 12px 0; font-size: 13px; color: #6b7280; line-height: 1.6;">{{ tutorial.description | truncate: 80 }}</p>
+                        <a href="{{ tutorial.url }}" style="color: #f97316; text-decoration: none; font-weight: 600; font-size: 13px;">阅读教程 →</a>
+                    </div>
+                    {% endfor %}
+                {% else %}
+                    <p style="color: #6b7280; grid-column: 1 / -1;">暂无其他教程</p>
+                {% endif %}
+            </div>
+        </div>
+    </section>
+    
+    <!-- 页脚 -->
+    {% include footer.html %}
+    
+    <!-- 脚本 -->
+    <script>
+    function copyLink() {
+        const url = window.location.href;
+        navigator.clipboard.writeText(url).then(() => {
+            alert('链接已复制到剪贴板！');
+        });
+    }
+    </script>
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>

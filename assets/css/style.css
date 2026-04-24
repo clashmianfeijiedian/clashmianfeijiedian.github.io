@@ -1,0 +1,192 @@
+/* 全局样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    color: #374151;
+    background: #ffffff;
+    line-height: 1.6;
+}
+
+/* 容器 */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* 链接 */
+a {
+    color: #1e40af;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #f97316;
+}
+
+/* 标题 */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+h1 { font-size: 36px; }
+h2 { font-size: 28px; }
+h3 { font-size: 22px; }
+
+/* 按钮 */
+button, .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover, .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* 卡片 */
+.card {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    border: 1px solid #e5e7eb;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    transform: translateY(-4px);
+}
+
+/* 代码块 */
+code {
+    background: #f3f4f6;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+}
+
+pre {
+    background: #1f2937;
+    color: #e5e7eb;
+    padding: 16px;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin: 16px 0;
+}
+
+pre code {
+    background: none;
+    padding: 0;
+    color: #e5e7eb;
+}
+
+/* 表格 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th {
+    background: #f3f4f6;
+    padding: 12px;
+    text-align: left;
+    font-weight: 600;
+    border-bottom: 2px solid #e5e7eb;
+}
+
+table td {
+    padding: 12px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+table tr:hover {
+    background: #f9fafb;
+}
+
+/* 列表 */
+ul, ol {
+    margin: 16px 0;
+    padding-left: 24px;
+}
+
+li {
+    margin: 8px 0;
+}
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid #1e40af;
+    padding-left: 16px;
+    margin: 16px 0;
+    color: #6b7280;
+    font-style: italic;
+}
+
+/* 图片 */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 16px 0;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    h1 { font-size: 28px; }
+    h2 { font-size: 22px; }
+    h3 { font-size: 18px; }
+    
+    .container {
+        padding: 0 16px;
+    }
+    
+    nav {
+        flex-direction: column;
+        gap: 16px;
+    }
+}
+
+/* 动画 */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.3s ease;
+}
+
+/* 工具类 */
+.text-center { text-align: center; }
+.text-muted { color: #6b7280; }
+.mt-20 { margin-top: 20px; }
+.mb-20 { margin-bottom: 20px; }
+.p-20 { padding: 20px; }
+.rounded { border-radius: 8px; }
+.shadow { box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
