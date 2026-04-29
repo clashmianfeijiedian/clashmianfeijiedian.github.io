@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}Clash 免费节点, Clash 代理节点, Clash 订阅链接, Clashmeta, 飞机场节点, 小火箭节点, Shadowrocket 节点, 翻墙机场{% endif %}">
+    <!-- SEO 标签由 jekyll-seo-tag 插件统一管理 -->
+    {% if page.layout == 'post' or page.layout == 'tutorial' %}
+      <title>{{ page.title }}</title>
+      {% seo title=false %}
+    {% else %}
+      {% seo %}
+    {% endif %}
     
-    <!-- SEO 标签 -->
-    {% seo %}
+    <!-- 全局 Keywords 补充 -->
+    <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}Clash 免费节点, Clash 代理节点, Clash 订阅链接, Clashmeta, 飞机场节点, 小火箭节点, Shadowrocket 节点, 翻墙机场{% endif %}">
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

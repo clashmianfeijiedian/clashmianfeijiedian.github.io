@@ -4,12 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{{ page.title }} - {{ site.title }}</title>
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ page.content | strip_html | truncate: 160 }}{% endif %}">
-    <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}Clash, 免费节点, 代理{% endif %}">
-    
+    <title>{{ page.title }}</title>
     <!-- SEO 标签 -->
-    {% seo %}
+    {% seo title=false %}
+    <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}Clash, 免费节点, 代理{% endif %}">
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

@@ -1,3 +1,10 @@
+# 站点基本设置
+title: "Clash 免费节点分享站"
+site_name: "Clash 免费节点分享站"
+description: "提供最新的 Clash 免费节点、代理节点获取方式，包含 ClashMeta 配置教程、小火箭 Shadowrocket 节点订阅及机场节点推荐，助您快速掌握网络工具使用技巧。"
+url: "https://clashmianfeijiedian.github.io"
+author: "Clash 资讯站"
+
 # 主题设置
 theme: null
 remote_theme: null
