@@ -1,6 +1,6 @@
 # Jekyll 配置
 title: Clash 免费节点分享站
-description: 最新的 Clash 免费节点、代理节点、订阅链接分享，包含详细的教程和配置指南
+description: 整理Clash免费节点获取方式与Clash代理节点使用方法，包含ClashMeta配置、Clash for Android节点导入步骤及小火箭Shadowrocket节点订阅说明，覆盖节点获取、订阅更新、配置使用与常见问题处理，适合新手快速完成节点配置与日常使用。
 url: https://clashmianfeijiedian.github.io
 baseurl: ""
 
