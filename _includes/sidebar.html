@@ -1,0 +1,48 @@
+<aside class="sidebar">
+    <!-- 热门文章 -->
+    <div class="sidebar-widget">
+        <h3 class="sidebar-title">🔥 热门推荐</h3>
+        <ul class="widget-list">
+            {% assign popular_posts = site.posts | sort: 'date' | reverse | slice: 0, 5 %}
+            {% for post in popular_posts %}
+            <li>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+                <div class="widget-date">📅 {{ post.date | date: "%Y-%m-%d" }}</div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <!-- 标签云 -->
+    <div class="sidebar-widget">
+        <h3 class="sidebar-title">🏷️ 热门标签</h3>
+        <div class="tag-list">
+            {% capture tags %}
+                {% for tag in site.tags %}
+                    {{ tag[0] }}
+                {% endfor %}
+            {% endcapture %}
+            {% assign sorted_tags = tags | split: ' ' | uniq | sort %}
+            {% for tag in sorted_tags %}
+                <a href="/articles" class="tag-item">{{ tag }}</a>
+            {% endfor %}
+            {% if sorted_tags.size == 0 %}
+                <span class="text-muted" style="font-size: 13px;">暂无标签</span>
+            {% endif %}
+        </div>
+    </div>
+
+    <!-- 最新文章 -->
+    <div class="sidebar-widget">
+        <h3 class="sidebar-title">✨ 最新发布</h3>
+        <ul class="widget-list">
+            {% assign latest_posts = site.posts | sort: 'date' | reverse | slice: 0, 8 %}
+            {% for post in latest_posts %}
+            <li>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+                <div class="widget-date">📅 {{ post.date | date: "%Y-%m-%d" }}</div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</aside>

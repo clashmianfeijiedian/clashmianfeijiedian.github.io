@@ -34,9 +34,9 @@
     
     <!-- 文章头部 -->
     <section style="padding: 60px 20px; background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%); color: white;">
-        <div class="container" style="max-width: 800px;">
+        <div class="container" style="max-width: 900px;">
             <h1 style="margin: 0 0 20px 0; font-size: 36px; font-family: 'Poppins', sans-serif; font-weight: 700;">{{ page.title }}</h1>
-            <div style="display: flex; gap: 20px; font-size: 14px; opacity: 0.9;">
+            <div style="display: flex; gap: 20px; font-size: 14px; opacity: 0.9; flex-wrap: wrap;">
                 <span>📅 {{ page.date | date: "%Y 年 %m 月 %d 日" }}</span>
                 <span>✍️ {% if page.author %}{{ page.author }}{% else %}Clash 资讯站{% endif %}</span>
                 {% if page.category %}
@@ -46,28 +46,63 @@
         </div>
     </section>
     
-    <!-- 文章内容 -->
+    <!-- 文章内容 - 带侧边栏 -->
     <section style="padding: 60px 20px; background: white;">
-        <div style="max-width: 800px; margin: 0 auto;">
-            <article style="color: #374151; line-height: 1.8; font-size: 16px;">
-                {{ content }}
-            </article>
-            
-            <!-- 文章底部 -->
-            <div style="margin-top: 60px; padding-top: 30px; border-top: 1px solid #e5e7eb;">
-                <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px;">
-                    <div>
-                        <p style="margin: 0 0 8px 0; color: #6b7280; font-size: 14px;">分享这篇文章</p>
-                        <div style="display: flex; gap: 12px;">
-                            <a href="https://www.weibo.com/login.php" style="display: inline-block; width: 40px; height: 40px; background: #1e40af; color: white; border-radius: 50%; text-align: center; line-height: 40px; text-decoration: none; font-weight: 600;">微</a>
-                            <a href="https://www.wechat.com" style="display: inline-block; width: 40px; height: 40px; background: #1e40af; color: white; border-radius: 50%; text-align: center; line-height: 40px; text-decoration: none; font-weight: 600;">微</a>
-                            <button onclick="copyLink()" style="display: inline-block; width: 40px; height: 40px; background: #1e40af; color: white; border-radius: 50%; border: none; cursor: pointer; font-weight: 600;">链</button>
+        <div style="max-width: 1200px; margin: 0 auto;">
+            <div class="main-with-sidebar">
+                <!-- 主要内容 -->
+                <div class="main-content">
+                    <!-- 文章摘要 -->
+                    {% if page.description or page.excerpt %}
+                    <div style="background: #f0f4ff; border-left: 4px solid #1e40af; padding: 16px; border-radius: 8px; margin-bottom: 24px;">
+                        <p style="margin: 0; color: #374151; font-size: 15px; line-height: 1.6;">
+                            <strong>📝 摘要：</strong>
+                            {% if page.description %}
+                                {{ page.description }}
+                            {% elsif page.excerpt %}
+                                {{ page.excerpt | strip_html }}
+                            {% endif %}
+                        </p>
+                    </div>
+                    {% endif %}
+                    
+                    <!-- 标签展示 -->
+                    {% if page.tags %}
+                    <div style="margin-bottom: 24px;">
+                        <p style="margin: 0 0 8px 0; color: #6b7280; font-size: 14px;">🏷️ 标签：</p>
+                        <div class="tag-list">
+                            {% for tag in page.tags %}
+                            <a href="/articles" class="tag-item">{{ tag }}</a>
+                            {% endfor %}
                         </div>
                     </div>
-                    <div style="text-align: right;">
-                        <a href="/articles" style="color: #1e40af; text-decoration: none; font-weight: 600;">← 返回文章列表</a>
+                    {% endif %}
+                    
+                    <!-- 文章内容 -->
+                    <article style="color: #374151; line-height: 1.8; font-size: 16px;">
+                        {{ content }}
+                    </article>
+                    
+                    <!-- 文章底部 -->
+                    <div style="margin-top: 60px; padding-top: 30px; border-top: 1px solid #e5e7eb;">
+                        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px;">
+                            <div>
+                                <p style="margin: 0 0 8px 0; color: #6b7280; font-size: 14px;">分享这篇文章</p>
+                                <div style="display: flex; gap: 12px;">
+                                    <a href="https://www.weibo.com/login.php" style="display: inline-block; width: 40px; height: 40px; background: #1e40af; color: white; border-radius: 50%; text-align: center; line-height: 40px; text-decoration: none; font-weight: 600;">微</a>
+                                    <a href="https://www.wechat.com" style="display: inline-block; width: 40px; height: 40px; background: #1e40af; color: white; border-radius: 50%; text-align: center; line-height: 40px; text-decoration: none; font-weight: 600;">微</a>
+                                    <button onclick="copyLink()" style="display: inline-block; width: 40px; height: 40px; background: #1e40af; color: white; border-radius: 50%; border: none; cursor: pointer; font-weight: 600;">链</button>
+                                </div>
+                            </div>
+                            <div style="text-align: right;">
+                                <a href="/articles" style="color: #1e40af; text-decoration: none; font-weight: 600;">← 返回文章列表</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+                <!-- 侧边栏 -->
+                {% include sidebar.html %}
             </div>
         </div>
     </section>
@@ -85,6 +120,16 @@
                             <a href="{{ post.url }}" style="color: #1e40af; text-decoration: none;">{{ post.title }}</a>
                         </h3>
                         <p style="margin: 0 0 12px 0; font-size: 13px; color: #6b7280;">{{ post.date | date: "%Y 年 %m 月 %d 日" }}</p>
+                        
+                        <!-- 相关文章标签 -->
+                        {% if post.tags %}
+                        <div class="tag-list" style="margin-bottom: 8px;">
+                            {% for tag in post.tags | slice: 0, 2 %}
+                            <a href="/articles" class="tag-item">{{ tag }}</a>
+                            {% endfor %}
+                        </div>
+                        {% endif %}
+                        
                         <a href="{{ post.url }}" style="color: #f97316; text-decoration: none; font-weight: 600; font-size: 13px;">阅读 →</a>
                     </article>
                     {% endfor %}

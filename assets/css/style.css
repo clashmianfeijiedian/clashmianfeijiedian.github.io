@@ -190,3 +190,103 @@ img {
 .p-20 { padding: 20px; }
 .rounded { border-radius: 8px; }
 .shadow { box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+
+/* 标签样式 */
+.tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 10px 0;
+}
+
+.tag-item {
+    background: #f3f4f6;
+    color: #4b5563;
+    padding: 4px 12px;
+    border-radius: 9999px;
+    font-size: 12px;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.tag-item:hover {
+    background: #1e40af;
+    color: white;
+}
+
+/* 侧边栏布局 */
+.main-with-sidebar {
+    display: flex;
+    gap: 32px;
+}
+
+.main-content {
+    flex: 3;
+    min-width: 0;
+}
+
+.sidebar {
+    flex: 1;
+    min-width: 280px;
+}
+
+@media (max-width: 1024px) {
+    .main-with-sidebar {
+        flex-direction: column;
+    }
+    .sidebar {
+        width: 100%;
+    }
+}
+
+/* 侧边栏组件 */
+.sidebar-widget {
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+.sidebar-title {
+    font-size: 18px;
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #1e40af;
+    color: #111827;
+}
+
+.widget-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.widget-list li {
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px dashed #e5e7eb;
+}
+
+.widget-list li:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.widget-list a {
+    display: block;
+    font-size: 14px;
+    color: #374151;
+    line-height: 1.4;
+}
+
+.widget-list a:hover {
+    color: #1e40af;
+}
+
+.widget-date {
+    font-size: 12px;
+    color: #9ca3af;
+    margin-top: 4px;
+}
