@@ -50,15 +50,7 @@ Clash免费节点是指可以通过订阅链接获取的代理服务器节点，
 ## 🔗 三、Clash免费节点订阅示例（格式）
 
 > ⚠️ 以下为示例链接（不可用，仅演示）
--https://clashmianfeijiedian.github.io/api/v1/client/subscribe?token=clashfree001&type=clash
-
--https://clashmianfeijiedian.github.io/link/clash?sub=node_share_2026
-
--https://clashmianfeijiedian.github.io/get?token=clash_meta_android
-
--https://clashmianfeijiedian.github.io/subscribe?token=shadowrocket_ios_free
-
-
+-https://clashmianfeijiedian.github.io
 ---
 
 ## 🧩 四、ClashMeta 配置教程（重点）
@@ -186,9 +178,9 @@ Meta 支持更多协议，更稳定。
 
 本页面将持续更新：
 
-- Clash免费节点  
-- Clash代理节点  
-- 小火箭节点  
-- 机场节点推荐  
+- [Clash免费节点](https://clashforverge.github.io/)  
+- [Clash节点推荐](https://jichantuijian.github.io/)
+- [小火箭节点](https://clashmianfeijiedian.github.io/)  
+- [机场节点推荐](https://clashjichan.github.io/)  
 
 建议收藏 ⭐
