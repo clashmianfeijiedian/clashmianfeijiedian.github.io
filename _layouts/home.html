@@ -4,340 +4,289 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- SEO 标签 -->
     {% seo %}
-    <meta name="keywords" content="Clash 免费节点, Clash 代理节点, Clash 订阅链接, Clashmeta, 飞机场节点, 小火箭节点, Shadowrocket 节点, 翻墙机场, 机场节点推荐">
-    
-    <!-- Google Fonts -->
+    <meta name="keywords" content="Clash 免费节点, Clash 代理节点, Clash 订阅链接, Clash Meta, Clash Verge, Clash for Windows, Clash for Android, 小火箭节点, Shadowrocket 节点, 翻墙机场, 机场节点推荐, 免费机场, V2Ray 节点, Trojan 节点, 科学上网, VPN 推荐, 节点订阅, 代理工具">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     
-     <!-- 弹窗样式与脚本开始 -->
-<style>
-  #popupOverlay {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    align-items: center;
-    justify-content: center;
-    z-index: 9999;
-    padding: 10px;
-    box-sizing: border-box;
-  }
-  
-  #popupOverlay.show {
-    display: flex;
-  }
-  
-  .popup-content {
-    background: #fff;
-    padding: 20px 30px;
-    border-radius: 12px;
-    max-width: 100%;
-    width: 370px;
-    text-align: center;
-    position: relative;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-    box-sizing: border-box;
-    max-height: 90vh;
-    overflow-y: auto;
-  }
-  
-  .popup-close-btn {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    background: rgba(0, 0, 0, 0.05);
-    border: none;
-    font-size: 20px;
-    font-weight: bold;
-    color: #999;
-    cursor: pointer;
-    transition: all 0.3s;
-    flex-shrink: 0;
-    touch-action: manipulation;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 1;
-    z-index: 10;
-  }
-  
-  .popup-close-btn:hover {
-    background: #f44336;
-    color: #fff;
-  }
-  
-  .popup-link {
-    text-decoration: none;
-    color: inherit;
-    display: block;
-  }
-  
-  .popup-title {
-    margin: 0 0 10px;
-    font-size: 24px;
-    font-weight: bold;
-    color: #ff4d4f;
-    word-wrap: break-word;
-  }
-  
-  .popup-image {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    display: block;
-    margin: 0 auto 15px;
-    border-radius: 8px;
-  }
-
-  .popup-shop-btn {
-    display: inline-block;
-    width: 100%;
-    background: #e11d48;
-    color: #fff;
-    font-weight: bold;
-    padding: 12px 1px;
-    border-radius: 8px;
-    text-decoration: none;
-    transition: background 0.3s;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  }
-
-  .popup-shop-btn:hover {
-    background: #be123c;
-  }
-  
-  /* 移动端适配 */
-  @media (max-width: 768px) {
-    .popup-content {
-      width: 95%;
-      max-width: 320px;
-      padding: 15px 20px;
-    }
-    
-    .popup-title {
-      font-size: 20px;
-    }
-    
-    .popup-close-btn {
-      width: 28px;
-      height: 28px;
-      font-size: 18px;
-    }
-  }
-</style>
-
-<!-- 弹窗 HTML 结构 -->
-<div id="popupOverlay">
-  <div class="popup-content">
-    <div style="display: flex; flex-direction: column; gap: 1rem;">
-      <!-- 推荐链接 -->
-      <a href="https://ml.yfqz1.net/register?code=PCC6A3bC" target="_blank" class="popup-link">
-        <p class="popup-title">Clash 机场推荐</p>
-        <img src="https://free.picui.cn/free/2026/06/05/6a229370bf0c1.png" alt="机场地址" class="popup-image">
-      </a>
-      
-      <!-- 分割线 -->
-      <div style="border-top: 1px solid #f3f4f6; padding-top: 1rem;">
-        <a href="http://shop.xinkonyun.cc/" target="_blank" class="popup-shop-btn">
-          🛒 购买 Shadowrocket 独享账号/海外其他账号
-        </a>
-      </div>
-    </div>
-    
-    <!-- 关闭按钮 -->
-    <button class="popup-close-btn" id="popupCloseBtn" aria-label="关闭">&times;</button>
-  </div>
-</div>
-
-<!-- 弹窗控制脚本 -->
-<script>
-  (function() {
-    const popupOverlay = document.getElementById('popupOverlay');
-    const popupCloseBtn = document.getElementById('popupCloseBtn');
-    
-    // 页面加载完成后显示弹窗
-    window.addEventListener('DOMContentLoaded', function() {
-      // 延迟 500ms 显示，效果更自然
-      setTimeout(() => {
-        popupOverlay.classList.add('show');
-      }, 500);
-    });
-    
-    // 关闭按钮点击事件
-    popupCloseBtn.addEventListener('click', function(e) {
-      e.stopPropagation();
-      popupOverlay.classList.remove('show');
-    });
-    
-    // 点击遮罩层不关闭（强制引导），如需点击遮罩关闭可取消下面注释
-    /*
-    popupOverlay.addEventListener('click', function(e) {
-      if (e.target === popupOverlay) {
-        popupOverlay.classList.remove('show');
+    <!-- 弹窗样式 -->
+    <style>
+      #popupOverlay {
+        display: none;
+        position: fixed;
+        top: 0; left: 0;
+        width: 100%; height: 100%;
+        background: rgba(0,0,0,0.5);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+        padding: 10px;
+        box-sizing: border-box;
       }
-    });
-    */
-  })();
-</script>
-<!-- 弹窗样式与脚本结束 -->
+      #popupOverlay.show { display: flex; }
+      .popup-content {
+        background: #fff;
+        padding: 20px 30px;
+        border-radius: 12px;
+        max-width: 100%;
+        width: 370px;
+        text-align: center;
+        position: relative;
+        box-shadow: 0 0 15px rgba(0,0,0,0.3);
+        box-sizing: border-box;
+        max-height: 90vh;
+        overflow-y: auto;
+      }
+      .popup-close-btn {
+        position: absolute;
+        top: 5px; right: 5px;
+        width: 32px; height: 32px;
+        border-radius: 50%;
+        background: rgba(0,0,0,0.05);
+        border: none;
+        font-size: 20px; font-weight: bold;
+        color: #999;
+        cursor: pointer;
+        transition: all 0.3s;
+        touch-action: manipulation;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 1;
+        z-index: 10;
+      }
+      .popup-close-btn:hover { background: #f44336; color: #fff; }
+      .popup-link { text-decoration: none; color: inherit; display: block; }
+      .popup-title {
+        margin: 0 0 10px;
+        font-size: 24px; font-weight: bold;
+        color: #ff4d4f;
+        word-wrap: break-word;
+      }
+      .popup-image {
+        width: 100%; max-width: 300px;
+        height: auto;
+        display: block;
+        margin: 0 auto 15px;
+        border-radius: 8px;
+      }
+      .popup-shop-btn {
+        display: inline-block;
+        width: 100%;
+        background: #e11d48;
+        color: #fff;
+        font-weight: bold;
+        padding: 12px 1px;
+        border-radius: 8px;
+        text-decoration: none;
+        transition: background 0.3s;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      }
+      .popup-shop-btn:hover { background: #be123c; }
+      @media (max-width: 768px) {
+        .popup-content { width: 95%; max-width: 320px; padding: 15px 20px; }
+        .popup-title { font-size: 20px; }
+        .popup-close-btn { width: 28px; height: 28px; font-size: 18px; }
+      }
+    </style>
 
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' font-weight='bold' fill='%231e40af'>C</text></svg>">
 </head>
 <body>
-    <!-- 导航栏 -->
+    <!-- 弹窗（放在 body 内） -->
+    <div id="popupOverlay">
+      <div class="popup-content">
+        <div style="display: flex; flex-direction: column; gap: 1rem;">
+          <a href="https://ml.yfqz1.net/register?code=***" target="_blank" class="popup-link">
+            <p class="popup-title">Clash 机场推荐</p>
+            <img src="https://free.picui.cn/free/2026/06/05/6a229370bf0c1.png" alt="机场地址" class="popup-image">
+          </a>
+          <div style="border-top: 1px solid #f3f4f6; padding-top: 1rem;">
+            <a href="http://shop.xinkonyun.cc/" target="_blank" class="popup-shop-btn">
+              🛒 购买 Shadowrocket 独享账号/海外其他账号
+            </a>
+          </div>
+        </div>
+        <button class="popup-close-btn" id="popupCloseBtn" aria-label="关闭">&times;</button>
+      </div>
+    </div>
+
     {% include navigation.html %}
-    
-    <!-- Hero 部分 -->
-    <section class="hero" style="background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%); color: white; padding: 80px 20px; text-align: center;">
+
+    <!-- Hero 区域 -->
+    <section style="background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%); color: white; padding: 100px 20px 80px; text-align: center;">
         <div class="container">
-            <h1 style="font-size: 48px; margin: 0 0 20px 0; font-family: 'Poppins', sans-serif; font-weight: 700;">Clash 免费节点分享</h1>
-            <p style="font-size: 20px; margin: 0 0 30px 0; opacity: 0.9;">最新的 Clash 免费节点、代理节点、订阅链接、教程和配置指南</p>
-            <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-                <a href="/tutorials" style="background: #f97316; color: white; padding: 12px 32px; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s;">📚 查看教程</a>
-                <a href="/articles" style="background: rgba(255,255,255,0.2); color: white; padding: 12px 32px; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s; border: 2px solid white;">📰 最新资讯</a>
+            <h1 style="font-size: clamp(32px, 5vw, 52px); margin: 0 0 16px 0; font-weight: 700; letter-spacing: -0.5px;">Clash 免费节点 · 每日更新</h1>
+            <p style="font-size: clamp(16px, 2.5vw, 20px); margin: 0 auto 32px; opacity: 0.92; max-width: 700px; line-height: 1.7;">
+                整理 Clash 免费节点、Clash Meta 配置教程、小火箭 Shadowrocket 订阅链接与翻墙机场推荐，助你快速上手科学上网
+            </p>
+            <div style="display: flex; gap: 14px; justify-content: center; flex-wrap: wrap;">
+                <a href="/tutorials" style="background: #f97316; color: #fff; padding: 14px 36px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 16px; transition: all 0.3s; box-shadow: 0 4px 14px rgba(249,115,22,0.4);">📚 Clash 教程</a>
+                <a href="/articles" style="background: rgba(255,255,255,0.15); color: #fff; padding: 14px 36px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 16px; transition: all 0.3s; border: 2px solid rgba(255,255,255,0.5);">📰 节点资讯</a>
             </div>
         </div>
     </section>
-    
-    <!-- 关键词展示 -->
-    <section style="padding: 60px 20px; background: #f9fafb; border-bottom: 1px solid #e5e7eb;">
+
+    <!-- 推荐工具条 -->
+    <section style="padding: 24px 20px; background: #f0f4ff; border-bottom: 1px solid #dbeafe;">
+        <div class="container" style="text-align: center;">
+            <p style="margin: 0; font-size: 15px; color: #1e40af; font-weight: 500;">
+                🔥 热门工具：<a href="/articles" style="color: #f97316; font-weight: 700;">Clash Meta</a> · 
+                <a href="/articles" style="color: #f97316; font-weight: 700;">Clash Verge</a> · 
+                <a href="/articles" style="color: #f97316; font-weight: 700;">Clash for Windows</a> · 
+                <a href="/articles" style="color: #f97316; font-weight: 700;">Clash for Android</a> · 
+                <a href="/articles" style="color: #f97316; font-weight: 700;">小火箭 Shadowrocket</a> · 
+                <a href="/articles" style="color: #f97316; font-weight: 700;">V2Ray</a> · 
+                <a href="/articles" style="color: #f97316; font-weight: 700;">Trojan</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- 关键词矩阵 -->
+    <section style="padding: 60px 20px; background: #fff;">
         <div class="container" style="max-width: 1200px;">
-            <h2 style="text-align: center; font-size: 28px; margin: 0 0 40px 0; font-family: 'Poppins', sans-serif;">热门搜索</h2>
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px;">
-                <a href="/articles" style="display: block; padding: 16px; background: white; border: 1px solid #e5e7eb; border-radius: 8px; text-decoration: none; color: #1e40af; text-align: center; font-weight: 500; transition: all 0.3s; cursor: pointer;">
-                    🔍 Clash 免费节点
-                </a>
-                <a href="/articles" style="display: block; padding: 16px; background: white; border: 1px solid #e5e7eb; border-radius: 8px; text-decoration: none; color: #1e40af; text-align: center; font-weight: 500; transition: all 0.3s; cursor: pointer;">
-                    🔍 Clash 代理节点
-                </a>
-                <a href="/articles" style="display: block; padding: 16px; background: white; border: 1px solid #e5e7eb; border-radius: 8px; text-decoration: none; color: #1e40af; text-align: center; font-weight: 500; transition: all 0.3s; cursor: pointer;">
-                    🔍 Clash 节点
-                </a>
-                <a href="/articles" style="display: block; padding: 16px; background: white; border: 1px solid #e5e7eb; border-radius: 8px; text-decoration: none; color: #1e40af; text-align: center; font-weight: 500; transition: all 0.3s; cursor: pointer;">
-                    🔍 ClashMeta
-                </a>
-                <a href="/articles" style="display: block; padding: 16px; background: white; border: 1px solid #e5e7eb; border-radius: 8px; text-decoration: none; color: #1e40af; text-align: center; font-weight: 500; transition: all 0.3s; cursor: pointer;">
-                    🔍 飞机场节点
-                </a>
-                <a href="/articles" style="display: block; padding: 16px; background: white; border: 1px solid #e5e7eb; border-radius: 8px; text-decoration: none; color: #1e40af; text-align: center; font-weight: 500; transition: all 0.3s; cursor: pointer;">
-                    🔍 小火箭节点
-                </a>
-                <a href="/articles" style="display: block; padding: 16px; background: white; border: 1px solid #e5e7eb; border-radius: 8px; text-decoration: none; color: #1e40af; text-align: center; font-weight: 500; transition: all 0.3s; cursor: pointer;">
-                    🔍 Shadowrocket 节点
-                </a>
-                <a href="/articles" style="display: block; padding: 16px; background: white; border: 1px solid #e5e7eb; border-radius: 8px; text-decoration: none; color: #1e40af; text-align: center; font-weight: 500; transition: all 0.3s; cursor: pointer;">
-                    🔍 Clash 订阅链接
-                </a>
-                <a href="/articles" style="display: block; padding: 16px; background: white; border: 1px solid #e5e7eb; border-radius: 8px; text-decoration: none; color: #1e40af; text-align: center; font-weight: 500; transition: all 0.3s; cursor: pointer;">
-                    🔍 Clash 安卓配置
-                </a>
-                <a href="/articles" style="display: block; padding: 16px; background: white; border: 1px solid #e5e7eb; border-radius: 8px; text-decoration: none; color: #1e40af; text-align: center; font-weight: 500; transition: all 0.3s; cursor: pointer;">
-                    🔍 Clash for Android
-                </a>
-                <a href="/articles" style="display: block; padding: 16px; background: white; border: 1px solid #e5e7eb; border-radius: 8px; text-decoration: none; color: #1e40af; text-align: center; font-weight: 500; transition: all 0.3s; cursor: pointer;">
-                    🔍 翻墙机场
-                </a>
-                <a href="/articles" style="display: block; padding: 16px; background: white; border: 1px solid #e5e7eb; border-radius: 8px; text-decoration: none; color: #1e40af; text-align: center; font-weight: 500; transition: all 0.3s; cursor: pointer;">
-                    🔍 机场节点推荐
-                </a>
+            <h2 style="text-align: center; font-size: clamp(22px, 3vw, 28px); margin: 0 0 12px 0;">🔍 热门搜索关键词</h2>
+            <p style="text-align: center; color: #6b7280; margin: 0 0 36px 0; font-size: 15px;">以下关键词覆盖 Clash 节点、机场推荐、代理工具等热门搜索</p>
+            <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 12px;">
+                {% assign keywords = "Clash 免费节点,Clash 代理节点,Clash 订阅链接,Clash Meta 配置,Clash Verge 下载,Clash for Windows,Clash for Android,小火箭节点,Shadowrocket 订阅,翻墙机场推荐,机场节点购买,免费机场分享,V2Ray 节点,Trojan 节点,SSR 节点,科学上网工具,VPN 推荐,代理软件对比,节点订阅转换,Clash 规则配置" | split: "," %}
+                {% for kw in keywords %}
+                <a href="/articles" style="display: block; padding: 14px 16px; background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 8px; text-decoration: none; color: #374151; text-align: center; font-size: 14px; font-weight: 500; transition: all 0.25s;">{{ kw }}</a>
+                {% endfor %}
             </div>
         </div>
     </section>
-    
-    <!-- 热门教程 -->
-    <section style="padding: 60px 20px; background: white;">
+
+    <!-- 教程卡片区 -->
+    <section style="padding: 60px 20px; background: #f9fafb;">
         <div class="container" style="max-width: 1200px;">
-            <h2 style="font-size: 28px; margin: 0 0 40px 0; font-family: 'Poppins', sans-serif;">📚 热门教程</h2>
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px;">
+            <h2 style="text-align: center; font-size: clamp(22px, 3vw, 28px); margin: 0 0 12px 0;">📚 Clash 教程与配置指南</h2>
+            <p style="text-align: center; color: #6b7280; margin: 0 0 40px 0; font-size: 15px;">从零开始学 Clash：节点导入、订阅管理、规则分流一站式教程</p>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px;">
                 {% assign tutorials = site.tutorials | sort: 'date' | reverse | slice: 0, 6 %}
                 {% for tutorial in tutorials %}
-                <div style="border: 1px solid #e5e7eb; border-radius: 12px; overflow: hidden; transition: all 0.3s; cursor: pointer;">
-                    <div style="background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%); height: 200px; display: flex; align-items: center; justify-content: center; color: white; font-size: 48px;">
+                <div style="background: #fff; border-radius: 12px; overflow: hidden; border: 1px solid #e5e7eb; transition: all 0.3s;">
+                    <div style="background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%); height: 160px; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 48px;">
                         {{ tutorial.icon | default: '📖' }}
                     </div>
-                    <div style="padding: 24px;">
-                        <h3 style="margin: 0 0 12px 0; font-size: 18px; font-family: 'Poppins', sans-serif;">
+                    <div style="padding: 20px;">
+                        <h3 style="margin: 0 0 10px 0; font-size: 17px;">
                             <a href="{{ tutorial.url }}" style="color: #1e40af; text-decoration: none;">{{ tutorial.title }}</a>
                         </h3>
-                        <p style="margin: 0 0 16px 0; color: #6b7280; font-size: 14px; line-height: 1.6;">{{ tutorial.description | truncate: 100 }}</p>
-                        <a href="{{ tutorial.url }}" style="color: #f97316; text-decoration: none; font-weight: 600; font-size: 14px;">阅读教程 →</a>
+                        <p style="margin: 0 0 14px 0; color: #6b7280; font-size: 13px; line-height: 1.6;">{{ tutorial.description | truncate: 80 }}</p>
+                        <a href="{{ tutorial.url }}" style="color: #f97316; text-decoration: none; font-weight: 600; font-size: 13px;">阅读教程 →</a>
                     </div>
                 </div>
                 {% endfor %}
             </div>
-            <div style="text-align: center; margin-top: 40px;">
-                <a href="/tutorials" style="background: #1e40af; color: white; padding: 12px 32px; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block;">查看全部教程</a>
+            <div style="text-align: center; margin-top: 36px;">
+                <a href="/tutorials" style="display: inline-block; background: #1e40af; color: #fff; padding: 12px 36px; border-radius: 8px; text-decoration: none; font-weight: 600;">查看全部教程 →</a>
             </div>
         </div>
     </section>
-    
-    <!-- 最新文章 - 增强版 -->
-    <section style="padding: 60px 20px; background: #f9fafb;">
-        <div class="container" style="max-width: 1200px;">
-            <h2 style="font-size: 28px; margin: 0 0 40px 0; font-family: 'Poppins', sans-serif;">📰 最新资讯</h2>
-            <div style="display: grid; gap: 24px;">
-                {% assign posts = site.posts | sort: 'date' | reverse | slice: 0, 8 %}
+
+    <!-- 文章列表区 -->
+    <section style="padding: 60px 20px; background: #fff;">
+        <div class="container" style="max-width: 1100px;">
+            <h2 style="text-align: center; font-size: clamp(22px, 3vw, 28px); margin: 0 0 12px 0;">📰 Clash 节点与机场最新资讯</h2>
+            <p style="text-align: center; color: #6b7280; margin: 0 0 40px 0; font-size: 15px;">每日更新 Clash 免费节点、机场推荐与代理工具使用经验</p>
+            <div style="display: grid; gap: 20px;">
+                {% assign posts = site.posts | sort: 'date' | reverse | slice: 0, 10 %}
                 {% for post in posts %}
-                <article style="background: white; padding: 24px; border-radius: 12px; border-left: 4px solid #1e40af; transition: all 0.3s;">
-                    <div style="display: flex; justify-content: space-between; align-items: start; gap: 16px;">
-                        <div style="flex: 1;">
-                            <h3 style="margin: 0 0 12px 0; font-size: 20px; font-family: 'Poppins', sans-serif;">
-                                <a href="{{ post.url }}" style="color: #1e40af; text-decoration: none;">{{ post.title }}</a>
-                            </h3>
-                            <div style="display: flex; gap: 16px; font-size: 13px; color: #6b7280; margin-bottom: 12px; flex-wrap: wrap;">
-                                <span>📅 {{ post.date | date: "%Y 年 %m 月 %d 日" }}</span>
-                                {% if post.category %}
-                                <span style="background: #fed7aa; color: #f97316; padding: 2px 8px; border-radius: 4px;">{{ post.category }}</span>
-                                {% endif %}
-                            </div>
-                            
-                            <!-- 文章摘要 -->
-                            <p style="margin: 0 0 12px 0; color: #374151; line-height: 1.6; font-size: 14px;">
-                                {% if post.excerpt %}
-                                    {{ post.excerpt | strip_html | truncate: 150 }}
-                                {% elsif post.description %}
-                                    {{ post.description | strip_html | truncate: 150 }}
-                                {% else %}
-                                    {{ post.content | strip_html | truncate: 150 }}
-                                {% endif %}
-                            </p>
-                            
-                            <!-- 标签展示 -->
-                            {% if post.tags %}
-                            <div class="tag-list" style="margin-bottom: 12px;">
-                                {% for tag in post.tags %}
-                                <a href="/articles" class="tag-item">{{ tag }}</a>
-                                {% endfor %}
-                            </div>
-                            {% endif %}
-                            
-                            <a href="{{ post.url }}" style="display: inline-block; color: #f97316; text-decoration: none; font-weight: 600; font-size: 13px;">阅读全文 →</a>
-                        </div>
+                <article style="background: #f9fafb; padding: 24px; border-radius: 10px; border-left: 4px solid #1e40af; transition: all 0.25s;">
+                    <h3 style="margin: 0 0 10px 0; font-size: 18px;">
+                        <a href="{{ post.url }}" style="color: #1e40af; text-decoration: none;">{{ post.title }}</a>
+                    </h3>
+                    <div style="display: flex; gap: 14px; font-size: 13px; color: #6b7280; margin-bottom: 10px; flex-wrap: wrap; align-items: center;">
+                        <span>📅 {{ post.date | date: "%Y-%m-%d" }}</span>
+                        {% if post.category %}
+                        <span style="background: #fed7aa; color: #f97316; padding: 2px 10px; border-radius: 4px; font-size: 12px;">{{ post.category }}</span>
+                        {% endif %}
                     </div>
+                    <p style="margin: 0 0 12px 0; color: #4b5563; line-height: 1.6; font-size: 14px;">
+                        {% if post.excerpt %}
+                            {{ post.excerpt | strip_html | truncate: 120 }}
+                        {% elsif post.description %}
+                            {{ post.description | strip_html | truncate: 120 }}
+                        {% else %}
+                            {{ post.content | strip_html | truncate: 120 }}
+                        {% endif %}
+                    </p>
+                    <a href="{{ post.url }}" style="color: #f97316; text-decoration: none; font-weight: 600; font-size: 13px;">阅读全文 →</a>
                 </article>
                 {% endfor %}
             </div>
-            <div style="text-align: center; margin-top: 40px;">
-                <a href="/articles" style="background: #1e40af; color: white; padding: 12px 32px; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block;">查看全部文章</a>
+            <div style="text-align: center; margin-top: 36px;">
+                <a href="/articles" style="display: inline-block; background: #1e40af; color: #fff; padding: 12px 36px; border-radius: 8px; text-decoration: none; font-weight: 600;">查看全部文章 →</a>
             </div>
         </div>
     </section>
-    
-    <!-- 页脚 -->
+
+    <!-- FAQ / 长尾关键词区 -->
+    <section style="padding: 60px 20px; background: #f0f4ff;">
+        <div class="container" style="max-width: 1000px;">
+            <h2 style="text-align: center; font-size: clamp(22px, 3vw, 28px); margin: 0 0 12px 0;">❓ 常见问题</h2>
+            <p style="text-align: center; color: #6b7280; margin: 0 0 40px 0; font-size: 15px;">关于 Clash 节点、机场与代理工具的常见疑问解答</p>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+                <div style="background: #fff; padding: 22px; border-radius: 10px; border: 1px solid #dbeafe;">
+                    <h3 style="margin: 0 0 8px 0; font-size: 16px; color: #1e40af;">Clash 免费节点怎么用？</h3>
+                    <p style="margin: 0; color: #6b7280; font-size: 14px; line-height: 1.7;">下载 Clash Meta 或 Clash Verge 客户端，导入 Clash 订阅链接即可自动获取最新免费节点。支持 Windows、macOS、Android 全平台。</p>
+                </div>
+                <div style="background: #fff; padding: 22px; border-radius: 10px; border: 1px solid #dbeafe;">
+                    <h3 style="margin: 0 0 8px 0; font-size: 16px; color: #1e40af;">小火箭 Shadowrocket 节点怎么获取？</h3>
+                    <p style="margin: 0; color: #6b7280; font-size: 14px; line-height: 1.7;">Shadowrocket 是 iOS 平台最流行的代理工具，可通过订阅链接导入机场节点。本站在售独享 Shadowrocket 账号，稳定不闪退。</p>
+                </div>
+                <div style="background: #fff; padding: 22px; border-radius: 10px; border: 1px solid #dbeafe;">
+                    <h3 style="margin: 0 0 8px 0; font-size: 16px; color: #1e40af;">翻墙机场怎么选？</h3>
+                    <p style="margin: 0; color: #6b7280; font-size: 14px; line-height: 1.7;">选机场看三点：节点稳定性、带宽速度、是否支持 Clash/V2Ray/Trojan 多协议。推荐优先选择提供 Clash 订阅链接的机场。</p>
+                </div>
+                <div style="background: #fff; padding: 22px; border-radius: 10px; border: 1px solid #dbeafe;">
+                    <h3 style="margin: 0 0 8px 0; font-size: 16px; color: #1e40af;">Clash for Android 怎么配置？</h3>
+                    <p style="margin: 0; color: #6b7280; font-size: 14px; line-height: 1.7;">安卓用户推荐使用 Clash Meta for Android，支持订阅链接一键导入。也支持 V2Ray、Trojan、SSR 等多种代理协议。</p>
+                </div>
+                <div style="background: #fff; padding: 22px; border-radius: 10px; border: 1px solid #dbeafe;">
+                    <h3 style="margin: 0 0 8px 0; font-size: 16px; color: #1e40af;">免费节点和付费机场有什么区别？</h3>
+                    <p style="margin: 0; color: #6b7280; font-size: 14px; line-height: 1.7;">免费节点适合轻度使用，但速度和稳定性有限。付费机场提供更快的带宽、更多节点选择和技术支持，适合日常稳定科学上网。</p>
+                </div>
+                <div style="background: #fff; padding: 22px; border-radius: 10px; border: 1px solid #dbeafe;">
+                    <h3 style="margin: 0 0 8px 0; font-size: 16px; color: #1e40af;">Clash 订阅链接失效怎么办？</h3>
+                    <p style="margin: 0; color: #6b7280; font-size: 14px; line-height: 1.7;">Clash 订阅链接有时效性，建议定期更新。可在本站获取最新的 Clash 免费节点订阅链接和机场推荐信息。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 底部 CTA -->
+    <section style="padding: 60px 20px; background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%); color: #fff; text-align: center;">
+        <div class="container" style="max-width: 700px;">
+            <h2 style="font-size: clamp(22px, 3vw, 28px); margin: 0 0 16px 0;">🚀 获取最新 Clash 免费节点</h2>
+            <p style="margin: 0 0 28px 0; opacity: 0.9; font-size: 16px; line-height: 1.7;">每日更新 Clash 节点、小火箭订阅、翻墙机场推荐，涵盖 Windows / macOS / Android / iOS 全平台代理方案</p>
+            <div style="display: flex; gap: 14px; justify-content: center; flex-wrap: wrap;">
+                <a href="/articles" style="background: #f97316; color: #fff; padding: 14px 36px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 16px;">📰 查看节点资讯</a>
+                <a href="/tutorials" style="background: rgba(255,255,255,0.15); color: #fff; padding: 14px 36px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 16px; border: 2px solid rgba(255,255,255,0.5);">📚 配置教程</a>
+            </div>
+        </div>
+    </section>
+
     {% include footer.html %}
-    
-    <!-- 脚本 -->
+
     <script src="/assets/js/main.js"></script>
+    <script>
+      (function() {
+        var overlay = document.getElementById('popupOverlay');
+        var closeBtn = document.getElementById('popupCloseBtn');
+        window.addEventListener('DOMContentLoaded', function() {
+          setTimeout(function() { overlay.classList.add('show'); }, 500);
+        });
+        closeBtn.addEventListener('click', function(e) {
+          e.stopPropagation();
+          overlay.classList.remove('show');
+        });
+      })();
+    </script>
 </body>
 </html>
