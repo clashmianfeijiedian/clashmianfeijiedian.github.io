@@ -19,7 +19,6 @@ FeijiCloud 机场测评｜知名度逐渐上升的活跃品牌
 
 FeijiCloud 这两年在圈子里存在感越来越强，属于那种“刚开始没太多人提，但用过之后会回"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/付费机场订阅.png)
 
 <h2>如何有效管理 Clash 订阅链接并查看节点信息？</h2>
 机场名称：FeijiCloud

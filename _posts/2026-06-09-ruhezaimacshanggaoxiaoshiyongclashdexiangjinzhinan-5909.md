@@ -14,7 +14,6 @@ tags:
 keywords: "免费节点,Clash for Windows,clash节点,高速机场节点,Clash节点,免费机场,免费节点机场"
 description: "如何在Mac上高效使用Clash的详尽指南 在数字时代，网络自由和稳定访问海外资源的需求日益增长。对于许多用户而言，Clash以其强大的功能和灵活的配置方式成为了首选工具。本文将为您提供一份详尽的clash使用指南，帮助您在Mac操作系统上"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/一元机场订阅.png)
 
 <h2>如何在Mac上高效使用Clash的详尽指南</h2> <p>在数字时代，网络自由和稳定访问海外资源的需求日益增长。对于许多用户而言，Clash以其强大的功能和灵活的配置方式成为了首选工具。本文将为您提供一份详尽的<strong>clash使用指南</strong>，帮助您在Mac操作系统上更好地配置和使用Clash，享受流畅的网络体验。</p> <h3>一、 Clash for Windows/macOS 基础安装与配置</h3> <p>首先，我们需要获取并安装适用于macOS的Clash客户端。目前市面上比较流行的有ClashX（主要为macOS设计）和直接使用通用Clash内核配合GUI管理工具。</p> <h4>1. 获取Clash客户端</h4> <p>对于macOS用户，ClashX是一个非常不错的选择。您可以在其官方GitHub仓库找到最新的发行版本并下载安装。下载完成后，按照常规Mac应用安装流程即可。</p> <h4>2. 配置Clash核心</h4> <p>Clash的核心是通过配置文件来工作的。一份好的配置文件（通常是YAML格式）决定了您的代理规则和节点选择。您可以通过以下方式获取配置文件：</p>
 机场名称：赔钱机场

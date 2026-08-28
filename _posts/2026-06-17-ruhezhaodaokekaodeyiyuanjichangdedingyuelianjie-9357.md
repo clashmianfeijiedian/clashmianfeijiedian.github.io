@@ -19,7 +19,6 @@ description: "如何找到可靠的一元机场的订阅链接？
 
 飞天猪（fliggycloud）算是近期比较活跃的一家性价比机场，主打低门槛和日常够用。整体给人的"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/机场订阅免费.png)
 
 <h2>如何找到可靠的一元机场的订阅链接？</h2>
 机场名称：飞天猪（fliggycloud）

@@ -18,7 +18,6 @@ description: "如何找到可用的 Clash 免费链接并免费节点机场高�
 VFree 机场测评
 VFree 算是圈里比较老牌的机场了，运营时间比较久，整体给人的感觉就是“稳”字当头。它的套餐做得比较细，价格从入门到高配都"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/六月一个月的机场订阅.png)
 
 <h2>如何找到可用的 Clash 免费链接并免费节点机场高速优化使用体验？</h2>
 机场名称：VFree

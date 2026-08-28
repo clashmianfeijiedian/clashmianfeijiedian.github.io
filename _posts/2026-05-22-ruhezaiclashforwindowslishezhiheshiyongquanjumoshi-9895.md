@@ -14,7 +14,6 @@ tags:
 keywords: "高速机场节点推荐,节点分享,飞机场节点,节点订阅,clash for win,免费订阅,免费节点"
 description: "如何在 Clash for Windows 里设置和使用全局模式？ 对于经常需要在电脑上灵活管理网络连接的朋友来说，Clash for Windows 是一个相当流行的工具。它功能强大，支持多种代理协议，比如常见的 Shadowsocks "
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/机场节点购买.png)
 
 <h2>如何在 Clash for Windows 里设置和使用全局模式？</h2> <p>对于经常需要在电脑上灵活管理网络连接的朋友来说，Clash for Windows 是一个相当流行的工具。它功能强大，支持多种代理协议，比如常见的 Shadowsocks (SSR)、V2Ray、Trojan 等，并且可以通过订阅链接轻松管理大量节点。不过，初次接触或不熟悉 Clash 各种模式的朋友，可能有时会遇到一些特定的网络需求，比如希望所有流量都经过代理，这时候就需要用到“全局模式”。那么，到底怎么在 Clash for Windows 里设置和使用全高速机场节点推荐局模式呢？这确实是很多朋友常问的问题。</p> <p>理解 Clash 的工作模式是第一步。Clash for Windows 主要提供了几种不同的代理模式：</p>
 机场名称：SakuraCat（樱花猫）

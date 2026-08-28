@@ -19,7 +19,6 @@ description: "如何有效地 Clash 查看端口并优化使用体验
 
 火箭TNT给我的第一印象是“协议比较全，适合不想折腾的人”。它主打多种协议支持，常见的 Trojan、VLESS、Sha"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/机场节点推荐.png)
 
 <h2>如何有效地 Clash 查看端口并优化使用体验</h2>
 机场名称：火箭TNT

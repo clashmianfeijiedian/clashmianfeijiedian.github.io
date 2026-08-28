@@ -19,7 +19,6 @@ SSRDOG 机场测评｜运营多年，定制客户端与按量付费体验
 
 SSRDOG 是我最近测试的一家老牌节点服务，整体感觉比较偏“稳扎稳打”路线，不是那种靠低价冲量的新"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/tiktok机场推荐.png)
 
 <h2>为什么 Clash 打不开？全面排查与常见解决思路</h2>
 机场名称：SSRDOG

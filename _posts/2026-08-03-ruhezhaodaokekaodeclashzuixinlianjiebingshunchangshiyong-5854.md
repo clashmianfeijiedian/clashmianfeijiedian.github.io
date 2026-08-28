@@ -18,7 +18,6 @@ description: "如何找到可靠的 clash 最新链接并顺畅使用？
 Totoro Cloud（龙猫云）- 低调专线机场，IPLC多入口负载测评
 Totoro Cloud（龙猫云）给我的第一印象就是“很低调但不花"
 ---
-![Clash节点推荐](https://1yuanjichang.github.io/img/clash%20for%20windows免费节点.png)
 
 <h2>如何找到可靠的 clash 最新链接并顺畅使用？</h2>
 机场名称：Totoro Cloud（龙猫云）

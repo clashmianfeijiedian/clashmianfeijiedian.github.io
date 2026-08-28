@@ -18,7 +18,6 @@ description: "如何找到可用 Clash 配置文件免费 URL？
 速云梯-节点覆盖广，协议支持全面。测评模块
 速云梯是一家偏实用型的机场，主打节点覆盖广和协议支持全面，常见的 Shadowsocks、Trojan、VLESS 基本都能用"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/机场节点购买.png)
 
 <h2>如何找到可用 Clash 配置文件免费 URL？</h2>
 机场名称：速云梯

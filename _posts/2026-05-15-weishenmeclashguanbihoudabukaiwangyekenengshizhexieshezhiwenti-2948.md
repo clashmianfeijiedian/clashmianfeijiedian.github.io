@@ -19,7 +19,6 @@ description: "为什么clash关闭后打不开网页？可能是这些设置问�
 
 魔戒net算是比较早一批做按量付费的机场了，整体风格偏稳，不是那种疯狂堆节点数量的类型，更适合平时偶尔"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/节点订阅推荐.png)
 
 <h2>为什么clash关闭后打不开网页？可能是这些设置问题</h2>
 机场名称：魔戒net

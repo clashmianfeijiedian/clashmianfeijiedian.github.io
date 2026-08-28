@@ -18,7 +18,6 @@ description: "如何有效切换电脑IP到国外使用
 CloudLink-专注于企业级外贸加速，提供大带宽专线。
 CloudLink 这类定位很明确，主打的就是企业级外贸场景和跨境业务加速，不太像那种纯娱乐型机场。实际看下来，它更"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/机场订阅免费.png)
 
 <h2>如何有效切换电脑IP到国外使用</h2>
 机场名称：CloudLink

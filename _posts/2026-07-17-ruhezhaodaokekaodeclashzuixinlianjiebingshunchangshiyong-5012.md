@@ -18,7 +18,6 @@ description: "如何找到可靠的 clash 最新链接并顺畅使用？
 TAG Internet 老牌一线机场测评
 TAG Internet 给人的第一印象就是“稳”。这家机场算是圈子里比较老牌的一线玩家了，运营时间不短，节"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/clash免费订阅.png)
 
 <h2>如何找到可靠的 clash 最新链接并顺畅使用？</h2>
 机场名称：TAG Internet

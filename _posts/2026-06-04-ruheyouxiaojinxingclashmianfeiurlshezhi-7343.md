@@ -18,7 +18,6 @@ description: "如何有效进行 Clash 免费 URL 设置？
 EdNovas云-知名技术型机场，支持多种协议。
 EdNovas云给人的第一感觉就是“老牌技术流”那一挂，面板不花哨，但功能很全，常见的 SS、Trojan、VL"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/一元机场订阅.png)
 
 <h2>如何有效进行 Clash 免费 URL 设置？</h2>
 机场名称：EdNovas云

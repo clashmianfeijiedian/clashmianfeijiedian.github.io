@@ -40,9 +40,6 @@ description: "为什么clash开启tun模式后无法上网？可能原因与解�
   <tr><td>https://taginternet.example.com/sub/free2</td></tr>
   <tr><td>https://taginternet.example.com/sub/free3</td></tr>
 
-
-![小火箭机场](/img/%E5%B0%8F%E7%81%AB%E7%AE%AD%E6%9C%BA%E5%9C%BA.png)
-
 </table>
 
 <p>节点地区方面，TAG Internet 主打亚洲、欧美双线覆盖，日常常用的香港、新加坡、日本、美国洛杉矶、英国伦敦、德国法兰克福都能稳定连上。实测下来，部分冷门地区节点也能用，但速度会比主力节点略慢一点。流媒体解锁这块表现不差，Netflix、Disney+、YouTube Premium 基本都能正常开，部分美区资源也能顺利访问，拿来追剧算是够格。</p>
@@ -114,8 +111,6 @@ description: "为什么clash开启tun模式后无法上网？可能原因与解�
 </li>
 <li>
 <p><strong>重启设备：</strong> 重启电脑或手机，可以刷新所有的网络设置和服务，解决一些临时的系统或网络问题。这比单独重启 Clash 更彻底。
-
-![泰山net](/img/%E6%B3%B0%E5%B1%B1net.png)
 
 </p>
 </li>
@@ -207,8 +202,6 @@ description: "为什么clash开启tun模式后无法上网？可能原因与解�
 <p>进行 节点测速 时，除了看 Ping 延迟，更要关注实际连接的稳定性和下载速度。许多服务提供商会提供 免费试用，这是一个评估其服务质量、节点质量以及是否适合你的设备和 Clash 版本的绝佳机会。</p>
 <h3>经验总结与“避坑”小贴士</h3>
 <p>总结一下，解决 clash开启tun模式后无法上网 的问题，关键在于有条不紊地排查。大多数情况下，问题都出在节点、订阅、TUN 模式的环境设置或系统冲突上。按照上面的步骤一步步检查，通常都能找到问题所在。
-
-![clash verge节点购买](/img/clash%20verge%E8%8A%82%E7%82%B9%E8%B4%AD%E4%B9%B0.png)
 
 </p>
 <ul>

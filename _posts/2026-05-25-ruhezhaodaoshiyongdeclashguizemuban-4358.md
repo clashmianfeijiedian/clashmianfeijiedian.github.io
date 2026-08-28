@@ -18,7 +18,6 @@ description: "如何找到实用的 Clash 规则模板
 Nexitally（奶昔机场）测评：行业标杆，自主开发面板，顶级专线
 Nexitally（奶昔机场）算是老牌里比较稳的一家，主打自研面板和高质量专线，整体风格"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/机场节点购买.png)
 
 <h2>如何找到实用的 Clash 规则模板</h2>
 机场名称：Nexitally（奶昔机场）

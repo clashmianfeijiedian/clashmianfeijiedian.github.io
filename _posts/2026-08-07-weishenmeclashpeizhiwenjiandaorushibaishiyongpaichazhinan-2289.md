@@ -38,18 +38,11 @@ description: "为什么 Clash 配置文件导入失败？实用排查指南
   <tr><td>https://example.com/dlercloud/free-sub-02</td></tr>
   <tr><td>https://example.com/dlercloud/free-sub-03</td></tr>
 
-
-![免费clash](/img/%E5%85%8D%E8%B4%B9clash.png)
-
 </table>
 
 <blockquote>
 测速体验：晚高峰 20:00 左右实测，香港节点平均延迟约 38ms，日本节点 65ms，新加坡 78ms，美国西海岸约 155ms。下载速度方面，本地千兆环境下，香港节点峰值能跑到 210Mbps 左右，日常稳定在 120Mbps 上下；日本节点大概 90~140Mbps；美国节点波动稍大，但刷视频和日常浏览完全够用。流媒体解锁表现也比较稳，Netflix、Disney+、YouTube Premium 基本都没压力，部分节点还能解锁区域限定内容。晚高峰整体没有明显“断流感”，最多就是个别热门节点速度轻微下滑，切换线路后恢复很快。
 </blockquote>
-
-
-
-![clash免费节点](/img/clash%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9.png)
 
 <p>从体验上看，Dler Cloud 的优点很明显：线路质量稳、节点干净、流媒体解锁能力强，而且客服响应也比较快。缺点也有，主要是价格不算特别便宜，另外新手如果只想图个低价入门，可能会觉得门槛稍高。不过如果你更看重稳定性、可用性和定制线路，这类老牌机场还是挺值得一试的。</p>
 
@@ -115,10 +108,6 @@ description: "为什么 Clash 配置文件导入失败？实用排查指南
   <tr><td>https://tolink.example/sub/a91b4e88</td></tr>
   <tr><td>https://tolink.example/sub/3c5d9f20</td></tr>
 </table>
-
-![v2rayng免费节点](/img/v2rayng%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9.png)
-
-
 
 <blockquote>
 测速体验：本地千兆宽带下，香港节点平均延迟约 42ms，日本节点约 61ms，新加坡节点约 75ms，美国节点约 148ms。晚高峰 20:00-23:00 期间，香港和日本线路基本还能维持 180-260Mbps 的下载表现，视频 4K 播放没有出现明显卡顿。流媒体方面，Netflix、Disney+、YouTube Premium 都能正常解锁，日区和港区切换也比较顺。短板也有，欧洲节点数量偏少，个别冷门节点偶尔会出现握手慢的情况，但不影响主流使用。

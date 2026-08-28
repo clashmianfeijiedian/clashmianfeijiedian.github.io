@@ -33,10 +33,6 @@ description: "为什么 ClashX 打不开？排查与解决指南
   <tr><td>旗舰版</td><td>￥50/月</td><td>800GB/月</td></tr>
 </table>
 
-
-
-![clash for android](/img/clash%20for%20android.png)
-
 <table>
   <tr><th>免费URL订阅链接</th></tr>
   <tr><td>https://sub.haite.example/free1</td></tr>
@@ -114,7 +110,6 @@ description: "为什么 ClashX 打不开？排查与解决指南
   <p>评分：8.6/10</p>
   <p>综合评价：节点覆盖广，活跃度高，晚高峰表现合格，适合日常长期使用。</p>
 
-
 <ul>
 <li><strong>恢复默认配置：</strong>尝试让 ClashX 重新加载默认配置，或者导入一个干净的配置文件。</li>
 <li><strong>检查 YAML 语法：</strong>如果手动编辑，请仔细检查 YAML 的缩进和语法，确保没有遗漏冒号、缩进错误等。</li>
@@ -164,9 +159,6 @@ description: "为什么 ClashX 打不开？排查与解决指南
 <blockquote>
 测速体验：本地晚间 20:30 测了一轮，香港节点延迟大概 38ms，新加坡 62ms，日本 71ms，美国西岸在 165ms 左右。下载速度表现挺均衡，走晚高峰时看 1080P 基本不卡，4K 要看线路负载，偶尔会有短暂波动，但不会掉得太夸张。节点地区主要有香港、日本、新加坡、台湾、美国、英国和韩国，日常够用了。流媒体解锁方面，Netflix、Disney+、YouTube Premium 基本能正常用，部分香港节点还能顺手解锁一些本地内容。优点是按量付费、不限时长、价格门槛低；缺点是节点数量不算多，高峰期个别线路会挤，适合“够用就行”的人，不太适合重度折腾党。
 
-
-![clash for windows免费节点](/img/clash%20for%20windows%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9.png)
-
 </blockquote>
 
 评分：8.2/10。属于那种老牌、稳当、性价比在线的按量机场，适合轻度用户长期备用。
@@ -192,9 +184,6 @@ description: "为什么 ClashX 打不开？排查与解决指南
 </ul>
 <h4>4. 经验总结与避坑指南</h4>
 <p>总结用户在使用 ClashX 过程中常遇到的问题，可以帮助您更好地避免这些陷阱。</p>
-
-![小火箭机场](/img/%E5%B0%8F%E7%81%AB%E7%AE%AD%E6%9C%BA%E5%9C%BA.png)
-
 
 <ul>
 <li><strong>保持软件更新：</strong>及时更新 ClashX 到最新版本，以获取 bug 修复和新功能支持。</li>

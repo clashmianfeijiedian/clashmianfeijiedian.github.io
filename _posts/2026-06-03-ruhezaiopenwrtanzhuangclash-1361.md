@@ -14,7 +14,6 @@ tags:
 keywords: "机场节点,节点订阅,Clash for Windows,免费飞机场,Clash 配置文件,节点分享,机场节点订阅"
 description: "如何在 OpenWrt 安装 Clash 许多用户希望在 OpenWrt 路由器上部署 Clash，以实现全局代理，统一管理网络流量。本文将为您详细介绍如何在 OpenWrt 系统中安装和配置 Clash，并提供一些实用的建议和经验分享。 "
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/免费clash节点.png)
 
 <h2>如何在 OpenWrt 安装 Clash</h2> <p>许多用户希望在 OpenWrt 路由器上部署 Clash，以实现全局代理，统一管理网络流量。本文将为您详细介绍如何在 OpenWrt 系统中安装和配置 Clash，并提供一些实用的建议和经验分享。</p> <h3>一、准备工作与安装环境</h3> <p>在开始安装之前，请确保您的 OpenWrt 路由器已经成功刷入固件，并且可以正常访问互联网。您需要通过 SSH 客户端（如 PuTTY 或 Xshell）连接到您的 OpenWrt 路由器。确保您的 OpenWrt 版本支持 opkg 包管理工具，这是安装 Clash 的基础。</p> <h4>1. 检查系统环境</h4> <p>通过 SSH 连接到路由器后，可以执行以下命令检查 OpenWrt 的基本信息和可用内存，以确保系统能够顺利运行 Clash：</p> <ul> <li>查看 OpenWrt 版本：<code>cat /etc/openwrt_version</code></li> <li>查看系统信息：<code>uname -a</code></li> <li>查看可用内存：<code>free -m</code></li> </ul> <h4>2. 更新软件包列表</h4> <p>在安装任何新软件之前，建议先更新您的 OpenWrt 系统的软件包列表，以获取最新的软件源信息和软件包版本。</p> <p>执行以下命令：</p> <pre><code>opkg update</code></pre> <h3>二、在 OpenWrt 安装 Clash</h3> <p>OpenWrt 安装 Clash 的主要方式是通过 opkg 命令安装预编译好的 Clash 内核。目前比较流行的 Clash 内核版本有 Clash、Clash Premium 等。这里我们以安装官方 Clash 内核为例。</p> <h4>1. 安装 Clash 内核</h4> <p>执行以下命令安装 Clash：</p> <pre><code>opkg install clash</code></pre> <p>请注意，如果您的 OpenWrt 版本较旧，或者没有对应的 Clash 软件包，您可能需要手动下载 ipk 包进行安装，或者考虑使用交叉编译的方式自行编译。但对于大多数用户而言，通过 opkg 安装是最便捷的方式。</p> <h4>2. 下载 Clash 配置文件免费的飞机场节点</h4> <p>Clash 的核心在于其配置文件（通常是 YAML 格式），它定义了代理节点、规则集以及分流策略。您需要获取一个有效的 Clash 配置文件。通常，您可以从提供 Clash 订阅链接的服务商那里获得配置文件。</p> <p>您可以通过以下几种方式获取配置文件：</p>
 机场名称：VFree

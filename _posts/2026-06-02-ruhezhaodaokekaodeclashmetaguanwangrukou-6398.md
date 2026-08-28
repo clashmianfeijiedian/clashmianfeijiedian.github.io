@@ -18,7 +18,6 @@ description: "如何找到可靠的 ClashMeta 官网入口？
 ChickenRun 机场测评
 ChickenRun 主打“每日签到领免费流量”和“大流量付费套餐”，整体定位比较明确：适合想先白嫖试用、再按需升级的用户。我"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/小火箭节点推荐.png)
 
 <h2>如何找到可靠的 ClashMeta 官网入口？</h2>
 机场名称：ChickenRun

@@ -18,7 +18,6 @@ description: "如何有效地 Clash 查看端口并优化使用体验
 TlyVPN 机场测评
 TlyVPN 是一家运营时间比较久的老牌服务，虽然名字带 VPN，但实际更偏向机场架构，主打 SS/SSR 协议，整体给我的感觉是“稳”字当头"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/机场节点购买.png)
 
 <h2>如何有效地 Clash 查看端口并优化使用体验</h2>
 机场名称：TlyVPN

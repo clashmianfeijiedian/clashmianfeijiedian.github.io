@@ -19,7 +19,6 @@ description: "如何在 OpenWrt 安装 Clash
 
 樱花宇宙给人的第一印象挺明确，就是把“动漫主题”做得很完整，不只是页面配色偏二次元，连节点命名和公告风格都很有那味儿。它主打的是日常翻墙"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/机场订阅免费.png)
 
 <h2>如何在 OpenWrt 安装 Clash</h2>
 机场名称：樱花宇宙

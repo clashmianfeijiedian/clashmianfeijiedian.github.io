@@ -19,7 +19,6 @@ SimpleCloud 机场测评：界面极简，适合新手上手
 
 SimpleCloud 给我的第一印象就是“干净”。它的后台没有花里胡哨的功能堆砌，常用入"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/节点订阅地址.png)
 
 <h2>为什么 Clash 的系统代理打不开？排查与解决指南</h2>
 机场名称：SimpleCloud

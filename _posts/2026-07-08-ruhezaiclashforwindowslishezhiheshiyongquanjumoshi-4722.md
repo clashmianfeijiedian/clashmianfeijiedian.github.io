@@ -18,7 +18,6 @@ description: "如何在 Clash for Windows 里设置和使用全局模式？
 Riolu（精灵学院）测评
 Riolu（精灵学院）是我最近拿来实测的一家小众机场，主打 VLESS / AnyTLS 协议，整体给人的感"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/一元机场订阅.png)
 
 <h2>如何在 Clash for Windows 里设置和使用全局模式？</h2>
 机场名称：Riolu（精灵学院）

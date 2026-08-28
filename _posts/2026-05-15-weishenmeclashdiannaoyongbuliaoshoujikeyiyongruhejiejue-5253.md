@@ -14,7 +14,6 @@ tags:
 keywords: "免费飞机场,节点免费,免费机场高速节点,高速节点,Clash for Windows,免费订阅,飞机场节点"
 description: "为什么clash电脑用不了手机可以用，如何解决？ 不少朋友在使用Clash或类似代理软件时，可能会遇到一个令人困扰的现象：同样的订阅链接，在手机上使用（比如iOS的Shadowrocket小火箭或Android的Clash for Andr"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/节点订阅地址.png)
 
 <h2>为什么clash电脑用不了手机可以用，如何解决？</h2> <p>不少朋友在使用Clash或类似代理软件时，可能会遇到一个令人困扰的现象：同样的订阅链接，在手机上使用（比如iOS的Shadowrocket小火箭或Android的Clash for Android）一切正常，网络连接稳定流畅，但将这个订阅导入到电脑端（如Windows的Clash for Windows或macOS的ClashX）后，却无法连接、速度极慢或者频繁断开。这种“clash电脑用不了手机可以用”的情况，着实让人摸不着头脑，不知道问题究竟出在哪里。</p> <p>其实，手机和电脑虽然都使用了Clash核心或兼容技术，但客户端软件、操作系统环境以及网络设置等方面都存在差异，这些差异都可能导致服务表现不同。本文就来一起分析可能的原因，并提供详细的排查和解决步骤，帮助你解决电脑端Clash使用不顺的问题。</p>
 机场名称：乌龟云

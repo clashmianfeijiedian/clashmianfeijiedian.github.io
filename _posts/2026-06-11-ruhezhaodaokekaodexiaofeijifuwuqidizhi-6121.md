@@ -19,7 +19,6 @@ GOGOCloud 测评：BGP中转 + IEPL 专线，晚高峰表现稳不稳？
 
 GOGOCloud 是我最近测到的一家偏“实用派”的机场，主打 BGP 中转和 IEPL 专线"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/免费机场节点推荐.png)
 
 <h2>如何找到可靠的小飞机服务器地址？</h2>
 机场名称：GOGOCloud

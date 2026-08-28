@@ -51,7 +51,6 @@ description: "如何有效管理 Clash 订阅链接并查看节点信息？
   <p>综合评分：8.7/10</p>
   <p>评分理由：大流量套餐价格很有竞争力，VLESS / AnyTLS 实测稳定，适合高频使用者。</p>
 
-
 <h3>直接访问订阅链接获取原始配置</h3>
 <p>最直接的“clash查看url”的方式就是通过浏览器或下载工具直接访问该订阅链接。大多数高质量的订阅服务提供商会将节点信息以 YAML 格式的文本文件形式提供。通过浏览器直接访问，通常会看到一长串文本代码，这就是 Clash 客户端解析的原始数据。
 
@@ -67,10 +66,6 @@ description: "如何有效管理 Clash 订阅链接并查看节点信息？
   <tr><td>节点地区</td><td>香港、日本、新加坡</td><td>香港、日本、新加坡、美国、韩国</td></tr>
   <tr><td>说明</td><td>适合轻度使用</td><td>适合日常全家桶</td></tr>
 </table>
-
-![clash for windows免费节点](/img/clash%20for%20windows%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9.png)
-
-
 
 <table>
   <tr><td>免费URL订阅链接1</td><td>https://qingyunti.example.com/sub/free1</td></tr>
@@ -110,10 +105,6 @@ description: "如何有效管理 Clash 订阅链接并查看节点信息？
   <tr><td>畅用版</td><td>￥49/月</td><td>800GB</td><td>重度用户、多设备使用</td></tr>
 </table>
 
-![banner](/img/banner.webp)
-
-
-
 <table>
   <tr><th>免费URL订阅链接</th></tr>
   <tr><td>https://sub.suying.example/free1</td></tr>
@@ -151,8 +142,6 @@ description: "如何有效管理 Clash 订阅链接并查看节点信息？
 <h3>节点测速与稳定性对比的实践</h3>
 <p>仅仅查看节点信息是不够的，更重要的是评估节点的实际可用性。节点测速是衡量代理服务质量的关键指标。</p>
 <p><strong>如何进行有效的节点测速：</strong>
-
-![clash免费订阅](/img/clash%E5%85%8D%E8%B4%B9%E8%AE%A2%E9%98%85.png)
 
 </p>
 <ul>

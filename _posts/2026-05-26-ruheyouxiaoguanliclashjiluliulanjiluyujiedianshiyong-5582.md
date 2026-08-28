@@ -18,7 +18,6 @@ description: "如何有效管理 Clash 记录浏览记录与节点使用
 TlyVPN 机场测评
 TlyVPN 是一家运营时间比较久的老牌服务，虽然名字带 VPN，但实际更偏向机场架构，主打 SS/SSR 协议，整体给我的感觉是“稳”字当"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/免费机场节点推荐.png)
 
 <h2>如何有效管理 Clash 记录浏览记录与节点使用</h2>
 机场名称：TlyVPN

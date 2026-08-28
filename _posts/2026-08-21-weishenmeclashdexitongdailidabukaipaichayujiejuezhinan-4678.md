@@ -19,10 +19,6 @@ description: "为什么 Clash 的系统代理打不开？排查与解决指南
 <h2>为什么 Clash 的系统代理打不开？排查与解决指南</h2>
 <p>许多用户在配置 Clash 时会免费节点机场高速遇到一个令人困扰的问题：明明按照教程操作了，但系统代理却始终无法正常开启，导致无法访问网络。这究竟是为什么呢？本文将深入探讨 Clash 系统代理打不开的常见原因，并提供一套系统的排查与解决思路，帮助您恢复网络畅通。
 
-
-
-![banner](/img/banner.webp)
-
 机场名称：鳄鱼机场
 
 <h2>鳄鱼机场｜近期表现较为活跃的品牌测评</h2>
@@ -40,10 +36,6 @@ description: "为什么 Clash 的系统代理打不开？排查与解决指南
   <tr><td>免费URL订阅2</td><td>https://subscribe.crocodile-air.com/free2</td></tr>
   <tr><td>免费URL订阅3</td><td>https://subscribe.crocodile-air.com/free3</td></tr>
 </table>
-
-
-
-![clash meta免费节点](/img/clash%20meta%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9.png)
 
 <blockquote>
 测速体验：本次测试在本地 300M 宽带环境下进行，香港节点延迟约 38ms，日本节点约 62ms，新加坡节点约 74ms，美国西海岸约 158ms。下载速度方面，白天峰值能跑到 220Mbps 左右，YouTube 4K 基本没压力。晚高峰时段波动会有一点，香港和日本偶尔掉到 120Mbps 上下，但整体还能保持可用。流媒体解锁方面，Netflix、Disney+ 和 YouTube Premium 表现正常，日区内容也能稳定打开，算是比较省心。
@@ -116,8 +108,6 @@ description: "为什么 Clash 的系统代理打不开？排查与解决指南
 </blockquote>
 
 <p>总体来说，KTM Cloud 更像是一家“实用派”机场：不追求花里胡哨，重点放在大流量和价格控制上。如果你平时用量大，又不想每个月花太多钱，它会是比较稳的选择；如果你更看重超多冷门地区节点，可能还得再搭配别家一起用。
-
-![clash免费订阅](/img/clash%E5%85%8D%E8%B4%B9%E8%AE%A2%E9%98%85.png)
 
 </p>
 

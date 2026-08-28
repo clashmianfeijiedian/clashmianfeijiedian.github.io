@@ -14,7 +14,6 @@ tags:
 keywords: "高速节点,机场节点,免费机场高速节点,免费机场,美国节点下载,免费机场节点,节点分享"
 description: "如何有效地关掉 Clash 的 Mixin 设置 许多用户在使用 Clash 客户端时，会遇到关于 关掉 Clash 的 Mixin 设置的需求。Mixin 是 Clash 中一个非常强大的功能，它允许用户通过订阅链接或文件动态加载和管理一"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/clash免费订阅.png)
 
 <h2>如何有效地关掉 Clash 的 Mixin 设置</h2> <p>许多用户在使用 Clash 客户端时，会遇到关于 <strong>关掉 Clash 的 Mixin</strong> 设置的需求。Mixin 是 Clash 中一个非常强大的功能，它允许用户通过订阅链接或文件动态加载和管理一组配置规则，例如节点列表、分流策略等。然而，在某些特定场景下，用户可能需要临时禁用或移除某个 Mixin 配置，以达到特定的网络访问目的。本文将从实用的角度出发，详细介绍如何有效地关掉 Clash 的 Mixin 设置，并提供一些相关的配置技巧与建议。</p> <h3>理解 Clash Mixin 的作用与管理</h3> <p>在深入了解如何关掉 Clash 的 Mixin 之前，我们先来简单回顾一下 Mixin 在 Clash 中的作用。Mixin 主要用于整合外部的配置高速免费机场节点片段，使得 Clash 的配置更加模块化和易于更新。通过订阅链接获取的 Clash 节点列表，往往就是通过 Mixin 的方式加载到主配置文件中的。这些订阅链接通常指向提供高速线路和稳定节点的机场服务商，用户可以通过粘贴订阅链接到 Clash 客户端，实现节点的自动更新和管理。</p> <p>例如，用户可能会从不同的“机场推荐”服务商那里获取到多个“Clash 节点”订阅链接，用于连接到不同的服务器节点，以实现网络加速、访问限制区域内容等目的。这些订阅链接实际上就是一种 Mixin 的形式，它们指向一个包含节点信息的 URL。</p> <p>要管理这些 Mixin，用户通常会在 Clash 的配置文件（例如 <code>config.yaml</code>）中看到 <code>proxy-providers</code> 部分，这里列出了所有启用的 Mixin 订阅。每个条目都包含了订阅的 URL、更新间隔以及相关的 <code>proxy-groups</code> 或 <code>rules</code> 等配置。</p>
 机场名称：网际快车

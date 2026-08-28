@@ -18,7 +18,6 @@ description: "如何找到轻云官网clash的最新配置？
 MESL Cloud 测评：优质BGP入口与IPLC内网专线体验
 MESL Cloud 是一类偏实用型的机场服务，主打优质 BGP 入口、IPLC 内网专线和不错的流"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/免费订阅机场.png)
 
 <h2>如何找到轻云官网clash的最新配置？</h2>
 机场名称：MESL Cloud

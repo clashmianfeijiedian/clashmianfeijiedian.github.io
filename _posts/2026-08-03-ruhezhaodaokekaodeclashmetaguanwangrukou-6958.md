@@ -18,7 +18,6 @@ description: "如何找到可靠的 ClashMeta 官网入口？
 奈云(NaiYun)机场测评
 奈云（NaiYun）给我的第一印象是“老牌稳”，页面说明里写着稳定运营多年，实际体验下来也确实比较符合这个定位。它的节点数量挺多"
 ---
-![Clash节点推荐](https://1yuanjichang.github.io/img/免费clash.png)
 
 <h2>如何找到可靠的 ClashMeta 官网入口？</h2>
 机场名称：奈云(NaiYun)

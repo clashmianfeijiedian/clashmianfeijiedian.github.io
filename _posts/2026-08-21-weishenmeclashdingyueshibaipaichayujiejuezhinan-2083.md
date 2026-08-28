@@ -47,10 +47,6 @@ description: "为什么 Clash 订阅失败？排查与解决指南
 <tr><td>备注</td><td>支持无限设备</td><td>含 IEPL 专线优先</td><td>赠送 2 个月试用</td></tr>
 </table>
 
-![clash免费节点](/img/clash%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9.png)
-
-
-
 <table>
 <tr><td>免费URL订阅1</td><td>https://infinitycloud.example.com/sub/8f3a1c</td></tr>
 <tr><td>免费URL订阅2</td><td>https://infinitycloud.example.com/sub/4b9d72</td></tr>
@@ -63,10 +59,6 @@ description: "为什么 Clash 订阅失败？排查与解决指南
 测速体验：本地晚高峰用香港节点测速，下载大概 280Mbps，上传 65Mbps；日本东京节点下载 220Mbps 左右，延迟在 38ms-52ms 之间浮动；美国西海岸节点下载约 150Mbps，适合看视频和轻度跨区访问。整体来说，IEPL 专线带来的优势很明显，线路比较直，丢包率低，连续挂一晚上也没出现明显掉线。缺点是部分冷门节点速度波动会稍大，偶尔高峰期会有 5%-10% 的抖动。
 </blockquote>
 
-![clash for windows免费节点](/img/clash%20for%20windows%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9.png)
-
-
-
 <p>综合来看，InfinityCloud 更适合追求稳定、又希望多设备同时在线的用户。优点是专线质量不错、节点够实用、设备限制宽松；缺点则是节点花样不算特别多，低价套餐流量给得不算豪横。如果你主要是日常上网、流媒体和轻办公，这个品牌可以列入备选。</p>
 
 评分：8.4/10
@@ -78,8 +70,6 @@ description: "为什么 Clash 订阅失败？排查与解决指南
 </ul>
 <h3>二、 网络环境与连接问题</h3>
 <p>即使订阅链接是有效的，不良的网络环境也可能阻碍 Clash 成功获取订阅内容。
-
-![免费clash](/img/%E5%85%8D%E8%B4%B9clash.png)
 
 </p>
 <h4>1. 网络不稳定或中断</h4>

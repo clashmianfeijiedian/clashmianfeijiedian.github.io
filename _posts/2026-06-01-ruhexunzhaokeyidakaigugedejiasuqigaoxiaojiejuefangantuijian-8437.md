@@ -19,7 +19,6 @@ BoostNet 深港IEPL专线测评
 
 BoostNet 主打深港 IEPL 专线接入，落地走 AnyTLS 协议，整体给人的感觉就是“稳”。这类线路比较适合平"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/clash订阅节点购买.png)
 
 <h2>如何寻找可以打开谷歌的加速器？高效解决方案推荐</h2>
 机场名称：BoostNet

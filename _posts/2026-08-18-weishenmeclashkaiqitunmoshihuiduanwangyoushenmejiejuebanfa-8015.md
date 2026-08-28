@@ -47,7 +47,6 @@ description: "为什么Clash开启TUN模式会断网，有什么解决办法？
 
 评分：8.4/10
 
-
 <p>别急，遇到这个问题的不止你一个。这种现象背后可能有多种原因，而且很多时候并不是Clash软件本身的bug，而是与你的系统环境、网络配置、甚至是正在使用的Clash节点状态息息相关。这篇文章我们就来深入聊聊，为什么会发生“clash tun模式打开后断网”的情况，以及我们可以怎么一步步去排查和解决它，希望能帮助你恢复正常的网络连接。</p>
 <h3>Clash TUN模式断网可能的原因分析</h3>
 <p>要解决问题，首先得知道问题可能出在哪里。当Clash开启TUN模式后发生断网，通常可以从以下几个方面来分析：</p>
@@ -77,9 +76,6 @@ description: "为什么Clash开启TUN模式会断网，有什么解决办法？
   <tr><td>https://example.com/nexitally/free1</td></tr>
   <tr><td>https://example.com/nexitally/free2</td></tr>
   <tr><td>https://example.com/nexitally/free3</td></tr>
-
-
-![clash节点](/img/clash%E8%8A%82%E7%82%B9.png)
 
 </table>
 
@@ -201,14 +197,6 @@ description: "为什么Clash开启TUN模式会断网，有什么解决办法？
   <tr><td>https://api.xinghecloud.example/sub/free2</td></tr>
   <tr><td>https://api.xinghecloud.example/sub/free3</td></tr>
 </table>
-
-![clash订阅](/img/clash%E8%AE%A2%E9%98%85.png)
-
-
-
-
-
-![clash verge免费节点](/img/clash%20verge%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9.png)
 
 <blockquote>
 测速体验：本次测试使用上海联通 1000M 宽带，晚高峰 20:30 左右连接香港节点，Speedtest 下载约 286Mbps，上传约 41Mbps，延迟在 58ms 左右；日本东京节点下载约 218Mbps，上传 36Mbps，延迟 72ms；新加坡节点下载约 192Mbps，延迟略高一些，但整体还算稳。YouTube 4K 基本能顺畅播放，偶尔拖动进度条会有半秒缓冲。晚高峰表现比预期好，虽然不是那种“满速飞起”的类型，但连续使用半小时后没有明显掉速，属于可长期当主力备用的线路。

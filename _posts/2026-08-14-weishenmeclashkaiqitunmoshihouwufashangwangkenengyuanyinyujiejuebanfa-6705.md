@@ -101,7 +101,6 @@ description: "为什么clash开启tun模式后无法上网？可能原因与解�
 
   评分：8.6/10
 
-
 </li>
 <li>
 <p><strong>重新安装 TUN 驱动/服务：</strong> 在 Windows 上，TUN 模式依赖 TAP 驱动。尝试在 Clash 设置中找到重新安装或修复 TAP 驱动的选项。如果是在 macOS 上，确保 Clash 在系统偏好设置中获得了完全控制或网络相关的权限。</p>
@@ -186,10 +185,6 @@ description: "为什么clash开启tun模式后无法上网？可能原因与解�
 <h2>白月光机场-年开业，提供大流量包及一次性流量套餐。</h2>
 <p>白月光机场算是近两年里比较容易被人忽略，但实际体验还挺稳的一家。它主打大流量包和一次性流量套餐，比较适合平时刷视频、出差开会、偶尔重度使用的人。我这次实测下来，整体给人的感觉是“够用且不折腾”，节点数量不算特别夸张，但常用地区基本都覆盖到了，日常上网、看流媒体、远程办公都能满足。</p>
 
-![v2rayng免费节点](/img/v2rayng%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9.png)
-
-
-
 <table>
   <tr><th>套餐</th><th>价格</th><th>流量</th><th>周期</th></tr>
   <tr><td>轻量包</td><td>￥18/月</td><td>120GB</td><td>月付</td></tr>
@@ -218,14 +213,6 @@ description: "为什么clash开启tun模式后无法上网？可能原因与解�
 解锁能力：8.6  
 性价比：8.7  
 晚高峰表现：8.1
-
-![clash for android](/img/clash%20for%20android.png)
-
-
-
-
-
-![clash verge节点购买](/img/clash%20verge%E8%8A%82%E7%82%B9%E8%B4%AD%E4%B9%B0.png)
 
 </p>
 </li>

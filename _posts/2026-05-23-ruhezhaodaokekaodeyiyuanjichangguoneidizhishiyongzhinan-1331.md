@@ -19,7 +19,6 @@ WannaFlix｜专注流媒体解锁的海外机场实测
 
 WannaFlix 是一家主打流媒体解锁的海外机场，整体定位很明确：不折腾、节点够用、看 Netflix/Disn"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/免费节点订阅.png)
 
 <h2>如何找到可靠的一元机场国内地址？实用指南</h2>
 机场名称：WannaFlix

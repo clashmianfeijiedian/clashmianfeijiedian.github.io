@@ -18,7 +18,6 @@ description: "如何找到三毛机场官方网站并获取高速节点
 CocoDuck（可可鸭）测评
 这次测的是 CocoDuck（可可鸭），主打海外团队运营，节点维护和线路调度都比较积极。它家自有四个机房，整体给人的感觉不是那种"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/免费订阅机场.png)
 
 <h2>如何找到三毛机场官方网站并获取高速节点</h2>
 机场名称：CocoDuck（可可鸭）

@@ -15,10 +15,7 @@ keywords: "clash for windows 不能上网,clashofwindows手动添加订阅,The C
 description: ""
 ---
 
-![Clash 推荐图](https://clashjd.github.io/assets/img/免费节点订阅.png)
-
 ## 稳定的机场分享哪里找才不容易掉线？
-
 
 <p>很多人第一次找 <strong>稳定的机场分享</strong>，通常不是为了“折腾配置”，而是因为真的被卡住了：晚高峰一打开就转圈，节点刚连上又掉，Clash订阅更新半天没反应，甚至前一天还能用的小火箭免费节点，第二天就直接全红。看起来像是软件问题，实际用久了会发现，真正麻烦的往往不是客户端，而是节点本身不稳定。</p>
 

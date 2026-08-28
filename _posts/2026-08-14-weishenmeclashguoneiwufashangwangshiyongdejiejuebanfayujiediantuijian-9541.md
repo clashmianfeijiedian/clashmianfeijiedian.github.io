@@ -65,7 +65,6 @@ description: "为什么 Clash 国内无法上网？实用的解决办法与节�
   性价比：8.3
   晚高峰表现：8.1
 
-
 <ul>
 <li><strong>极不稳定：</strong> 用户多，流量大，服务器负载高，随时可能失效。</li>
 <li><strong>速度慢：</strong> 带宽有限，高峰期体验极差，看个视频都卡顿。</li>
@@ -86,8 +85,6 @@ description: "为什么 Clash 国内无法上网？实用的解决办法与节�
 <p>获取了可靠的订阅链接后，下一步就是在你的 Clash 或其他客户端中进行配置。虽然各客户端界面略有差异，但核心步骤都是导入订阅链接。</p>
 <h4>Clash for Windows/macOS/Android 配置方法</h4>
 <p>以 Clash for Windows 为例：
-
-![clash for windows节点](/img/clash%20for%20windows%E8%8A%82%E7%82%B9.png)
 
 </p>
 <ol>
@@ -134,7 +131,6 @@ description: "为什么 Clash 国内无法上网？实用的解决办法与节�
 晚高峰稳定性：8.0  
 性价比：8.8
 
-
 <h4>Shadowrocket (小火箭) 在 iOS 上的配置方法</h4>
 <p>对于 iOS 用户，Shadowrocket（俗称“小火箭”）是常用的客户端，其配置“Shadowrocket 使用”非常直观：</p>
 <ol>
@@ -166,10 +162,6 @@ description: "为什么 Clash 国内无法上网？实用的解决办法与节�
   <tr><td>高级版</td><td>800GB/月</td><td>￥79/月</td><td>适合大流量用户</td></tr>
 </table>
 
-![小火箭机场](/img/%E5%B0%8F%E7%81%AB%E7%AE%AD%E6%9C%BA%E5%9C%BA.png)
-
-
-
 <table>
   <tr><th>免费URL订阅链接</th></tr>
   <tr><td>https://subscribe.yunti.example/free1</td></tr>
@@ -177,16 +169,11 @@ description: "为什么 Clash 国内无法上网？实用的解决办法与节�
   <tr><td>https://subscribe.yunti.example/free3</td></tr>
 </table>
 
-![clash免费订阅](/img/clash%E5%85%8D%E8%B4%B9%E8%AE%A2%E9%98%85.png)
-
-
-
 <blockquote>
 测速体验：本地电信晚高峰实测，香港节点延迟大约 38ms，下载速度稳定在 180Mbps 左右；日本节点平均 62ms，峰值能跑到 210Mbps；新加坡节点相对更稳，晚高峰也能维持在 150Mbps 上下。实际浏览网页、刷视频基本没有卡顿，4K 视频拖动进度条也比较顺。缺点是部分欧美节点在高峰期会偶尔抖一下，另外免费测试节点数量不算多，想深入体验还是得上正式套餐。优点则是价格确实友好，而且支持定制化业务，适合有特定需求的人。
 </blockquote>
 
 评分：8.4/10。性价比表现不错，适合想花小钱先体验稳定线路的用户，属于“够用、好用、价格也不贵”的类型。
-
 
 <p>常见的测速方法：</p>
 <ul>

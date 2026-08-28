@@ -18,7 +18,6 @@ description: "如何有效利用和管理自己的网络节点？
 AmyTelecom（奶昔 Nexitally 关联品牌）高端专线测评
 AmyTelecom 是奶昔（Nexitally）关联体系里比较低调的一家，主打的也是高端专线线路"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/免费clash节点.png)
 
 <h2>如何有效利用和管理自己的网络节点？</h2>
 机场名称：AmyTelecom

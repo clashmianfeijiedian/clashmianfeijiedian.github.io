@@ -14,7 +14,6 @@ tags:
 keywords: "免费机场节点,节点订阅,Clash for Windows,免费机场,高速节点,节点分享,机场节点"
 description: "如何有效地关掉 Clash 的 Mixin 设置 许多用户在使用 Clash 客户端时，会遇到关于 关掉 Clash 的 Mixin 设置的需求。Mixin 是 Clash 中一个非常强大的功能，它允许用户通过订阅链接或文件动态加载和管理一"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/clash订阅节点购买.png)
 
 <h2>如何有效地关掉 Clash 的 Mixin 设置</h2> <p>许多用户在使用 Clash 客户端时，会遇到关于 <strong>关掉 Clash 的 Mixin</strong> 设置的需求。Mixin 是 Clash 中一个非常强大的功能，它允许用户通过订阅链接或文件动态加载和管理一组配置规则，例如节点列表、分流策略等。然而，在某些特定场景下，用户可能需要临时禁用或移除某个 Mixin 配置，以达到特定的网络访问目的。本文将从实用的角度出发，详细介绍如何有效地关掉 Clash 的 Mixin 设置，并提供一些相关的配置技巧与建议。</p>
 机场名称：yunti（一云梯）

@@ -51,10 +51,6 @@ description: "为什么Clash开启TUN模式会断网，有什么解决办法？
   <tr><td>https://sub3.bitznet.example/free?token=demo03</td></tr>
 </table>
 
-![泰山net](/img/%E6%B3%B0%E5%B1%B1net.png)
-
-
-
 <blockquote>
 测速体验：这次我用上海联通和广东电信各跑了几轮，晚高峰大概在 20:00-22:30。香港节点延迟基本在 42ms-58ms，新加坡在 68ms-92ms，日本东京大概 85ms-110ms。白天 YouTube 4K 基本能直接跑满 50Mbps 以上，晚高峰时香港和日本节点会有一点波动，但不会出现明显断流，B站和 Netflix 播放都比较顺。流媒体解锁方面，Netflix、Disney+、YouTube Premium、HBO Max 基本都能正常解锁，部分美国节点还能顺带解锁部分 AI 服务。缺点也有，低价套餐流量给得不算特别多，而且个别冷门节点速度一般，适合优先选主力热门线路。
 </blockquote>
@@ -63,12 +59,8 @@ description: "为什么Clash开启TUN模式会断网，有什么解决办法？
 
 综合评分：8.6/10。优点是线路稳、解锁全、面板简单好上手；缺点是部分套餐性价比一般，个别节点高峰期会轻微抖动。
 
-
 <h4>基础排查步骤</h4>
 <p>首先，从最简单的操作开始，有时候小问题通过简单的重启就能解决：</p>
-
-![clash节点推荐](/img/clash%E8%8A%82%E7%82%B9%E6%8E%A8%E8%8D%90.png)
-
 
 <ul>
 <li>**重启Clash：** 彻底退出Clash应用程序，然后重新打开。</li>
@@ -109,10 +101,6 @@ description: "为什么Clash开启TUN模式会断网，有什么解决办法？
   <tr><td>进阶版</td><td>¥48/月</td><td>500GB</td><td>8台</td></tr>
 </table>
 
-![v2rayng免费节点](/img/v2rayng%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9.png)
-
-
-
 <table>
   <tr><th>免费URL订阅链接</th></tr>
   <tr><td>https://qingyun.example.com/sub/free1</td></tr>
@@ -131,7 +119,6 @@ description: "为什么Clash开启TUN模式会断网，有什么解决办法？
   <p>综合评分：8.4/10</p>
   <p>推荐人群：新手、日常办公、流媒体轻度用户</p>
   <p>一句话总结：简单、顺手、够稳定，属于用起来不费脑子的那种。</p>
-
 
 <ul>
 <li>**警惕免费公共节点：** 再次强调，尽量不要依赖免费公共节点。它们通常由个人维护，带宽有限，并且随时可能失效。这会让你频繁遭遇“clash tun模式打开后断网”的问题。</li>

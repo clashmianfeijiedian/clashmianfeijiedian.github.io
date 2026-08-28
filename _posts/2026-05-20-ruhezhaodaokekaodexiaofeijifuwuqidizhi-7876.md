@@ -18,7 +18,6 @@ description: "如何找到可靠的小飞机服务器地址？
 青云梯(QingYunTi)-提供超低价年付IPLC专线套餐
 青云梯(QingYunTi)算是这两年比较容易被人忽略的一家线路型机场，主打的就是超低价年付IPLC专"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/clash节点推荐.png)
 
 <h2>如何找到可靠的小飞机服务器地址？</h2>
 机场名称：青云梯(QingYunTi)

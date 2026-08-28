@@ -18,7 +18,6 @@ description: "如何有效实现翻墙不被抓？实用技巧分享
 TNTCloud 测评：活跃的大流量机场，常有优惠活动
 TNTCloud 给我的第一印象就是“更新很勤快”，不管是节点还是活动页，基本隔三差五就能看到新内容。它主打大流量套"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/小火箭节点推荐.png)
 
 <h2>如何有效实现翻墙不被抓？实用技巧分享</h2>
 机场名称：TNTCloud

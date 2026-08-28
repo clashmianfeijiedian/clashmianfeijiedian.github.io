@@ -18,7 +18,6 @@ description: "如何找到可靠的小火箭续费官网并避免踩坑
 Tolink专注于IEPL专线的机场测评
 Tolink 这次给我的第一感觉就是“稳”，不是那种参数特别炸眼的类型，但日常用起来很踏实。它主打 IEPL 专线，定位偏稳定型用户"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/clash订阅节点购买.png)
 
 <h2>如何找到可靠的小火箭续费官网并避免踩坑</h2>
 机场名称：Tolink

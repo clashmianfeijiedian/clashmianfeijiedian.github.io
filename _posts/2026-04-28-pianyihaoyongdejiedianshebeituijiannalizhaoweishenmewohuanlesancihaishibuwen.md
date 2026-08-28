@@ -14,10 +14,7 @@ keywords: "clash的url在哪看,clashx mac配置下载失败,clashx免费节点�
 description: ""
 ---
 
-![Clash 推荐图](https://clashjd.github.io/assets/img/付费机场订阅.png)
-
 ## 便宜好用的节点设备推荐哪里找？为什么我换了三次还是不稳
-
 
 <p>很多人第一次找<strong>便宜好用的节点设备推荐</strong>，想法都很简单：价格别太高，能连上就行，最好还能顺手解决手机、电脑、平板一起用的问题。可真到晚高峰一测试，情况往往不是“能不能用”，而是“能不能持续用”。我自己就遇到过几次：白天还正常，到了晚上突然卡顿，Clash订阅刷新后节点全红，小火箭免费节点时好时坏，clash for windows 里显示在线，实际网页却打不开。</p>
 

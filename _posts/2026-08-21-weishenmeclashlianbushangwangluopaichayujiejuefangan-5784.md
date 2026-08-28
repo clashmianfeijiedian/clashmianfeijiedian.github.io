@@ -39,10 +39,6 @@ description: "为什么 Clash 连不上网络？排查与解决方案
 <tr><td>同时在线</td><td>2台设备</td><td>4台设备</td><td>6台设备</td></tr>
 </table>
 
-
-
-![banner](/img/banner.webp)
-
 <table>
 <tr><td>免费URL订阅1</td><td>https://example.com/sub/3mao-a</td></tr>
 <tr><td>免费URL订阅2</td><td>https://example.com/sub/3mao-b</td></tr>
@@ -92,9 +88,6 @@ description: "为什么 Clash 连不上网络？排查与解决方案
   <tr><td>标准版</td><td>￥48/月</td><td>300GB</td><td>5台</td></tr>
   <tr><td>旗舰版</td><td>￥88/月</td><td>800GB</td><td>8台</td></tr>
 
-
-![clash for windows免费节点](/img/clash%20for%20windows%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9.png)
-
 </table>
 
 <table>
@@ -111,7 +104,6 @@ description: "为什么 Clash 连不上网络？排查与解决方案
 </blockquote>
 
 综合评分：9.1/10。稳定性 9.5，速度 8.8，解锁 9.4，性价比 8.4。
-
 
 <h4>1. 订阅服务商的选择</h4>
 <p>选择信誉良好、服务稳定的“机场推荐”或代理服务商至关重要。可以通过用户评价、社区讨论等方式了解服务商的口碑和节点质量。许多服务商会提供“免费试用订阅”的机会，您可以先试用后再决定是否购买长期服务。</p>
@@ -137,10 +129,6 @@ description: "为什么 Clash 连不上网络？排查与解决方案
 <tr><td>免费订阅2</td><td>https://allblue.example.com/sub/free2</td></tr>
 <tr><td>免费订阅3</td><td>https://allblue.example.com/sub/free3</td></tr>
 </table>
-
-![clash for windows节点](/img/clash%20for%20windows%E8%8A%82%E7%82%B9.png)
-
-
 
 <p>节点地区方面，Allblue 目前测到的可用线路主要集中在香港、日本、新加坡、台湾、美国洛杉矶和少量英国节点，整体覆盖不算特别夸张，但常用地区基本都在。实测晚高峰 20:00-23:00 期间，香港和日本节点会有一点波动，但还不至于卡到不能用，1080P 视频基本能顺播，偶尔切高峰时段会降到 80% 左右的速度。平时测速大概能跑到 120Mbps-260Mbps，晚高峰则多在 60Mbps-140Mbps 之间，属于“够稳但不炸裂”的类型。</p>
 

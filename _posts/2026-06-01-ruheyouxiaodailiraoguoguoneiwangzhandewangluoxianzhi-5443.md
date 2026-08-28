@@ -18,7 +18,6 @@ description: "如何有效代理绕过国内网站的网络限制？
 BridgeTheWall（越墙）测评模块
 BridgeTheWall（越墙）这个名字很直白，属于一眼就知道主打什么的机场。它家的页面风格比较朴素，没有太"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/最新机场推荐.png)
 
 <h2>如何有效代理绕过国内网站的网络限制？</h2>
 机场名称：BridgeTheWall（越墙）

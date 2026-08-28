@@ -19,7 +19,6 @@ description: "如何有效实现翻墙不被抓？实用技巧分享
 
 飞天猪（fliggycloud）算是近期比较活跃的一家性价比机场，主打低门槛和日常够用。整体给人"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/机场节点推荐.png)
 
 <h2>如何有效实现翻墙不被抓？实用技巧分享</h2>
 机场名称：飞天猪（fliggycloud）

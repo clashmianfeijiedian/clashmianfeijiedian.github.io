@@ -47,10 +47,6 @@ description: "为什么 Clash 订阅失败？排查与解决指南
 <tr><td>大流量版</td><td>800GB</td><td>¥88/月</td><td>适合长期高频使用</td></tr>
 </table>
 
-![免费clash](/img/%E5%85%8D%E8%B4%B9clash.png)
-
-
-
 <table>
 <tr><th>免费URL订阅链接</th><th>地址</th></tr>
 <tr><td>订阅链接1</td><td>https://example.com/flashlink/free1</td></tr>
@@ -70,7 +66,6 @@ description: "为什么 Clash 订阅失败？排查与解决指南
 流媒体解锁：7.8  
 晚高峰稳定性：8.0  
 性价比：8.8
-
 
 <ul>
 <li><strong>排查方法：</strong>如果可能，尝试截取部分节点信息生成一个更小的订阅链接，看是否能成功订阅。</li>
@@ -123,8 +118,6 @@ description: "为什么 Clash 订阅失败？排查与解决指南
 <h4>3. 服务器连接超时</h4>
 <p>如果订阅链接所在的服务器响应缓慢，或者您与服务器之间的网络延迟过高，Clash 在规定时间内可能无法成功连接并下载订阅内容，也会导致订阅失败。
 
-![clash节点](/img/clash%E8%8A%82%E7%82%B9.png)
-
 </p>
 <ul>
 <li><strong>排查方法：</strong>尝试在不同时间段进行订阅，以排除服务器高峰期响应慢的可能性。</li>
@@ -160,9 +153,6 @@ description: "为什么 Clash 订阅失败？排查与解决指南
 <tr><td>节点地区</td><td>香港、日本、台湾、新加坡、美国、英国</td></tr>
 <tr><td>流媒体解锁</td><td>Netflix、Disney+、YouTube Premium 可用</td></tr>
 
-
-![clash verge免费节点](/img/clash%20verge%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9.png)
-
 </table>
 
 <table>
@@ -176,7 +166,6 @@ description: "为什么 Clash 订阅失败？排查与解决指南
 </blockquote>
 
 综合评分：8.6/10。优点是速度快、线路稳、价格不算高，流媒体解锁也比较到位；缺点是节点分布还可以再丰富一点。整体来看，杜卡迪机场更适合对带宽要求高、但又不想折腾的人。
-
 
 <ul>
 <li><strong>测速方法：</strong>许多节点提供商会在其网站或 App 中集成 Speedtest 功能，或者用户可以借助第三方测速工具，对不同节点的延迟（Ping）、下载速度和上传速度进行测试。</li>

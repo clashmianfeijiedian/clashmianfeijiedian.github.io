@@ -19,7 +19,6 @@ YepFast（椰皮加速）- 性价比中转，全节点升级IEPL专线测评
 
 YepFast（椰皮加速）这家我前阵子随手上了个轻量套餐，整体感觉就是很典型的“中转里做得比较"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/clash免费订阅.png)
 
 <h2>如何找到可靠的小飞机服务器地址？</h2>
 机场名称：YepFast（椰皮加速）

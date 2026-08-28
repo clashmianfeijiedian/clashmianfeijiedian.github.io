@@ -14,7 +14,6 @@ tags:
 keywords: "机场节点推荐,节点订阅,Clash for Windows,机场节点,飞机场节点,clash for,机场节点订阅"
 description: "如何在 Clash for Windows 里设置和使用全局模式？ 对于经常需要在电脑上灵活管理网络连接的朋友来说，Clash for Windows 是一个相当流行的工具。它功能强大，支持多种代理协议，比如常见的 Shadowsocks "
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/机场节点购买.png)
 
 <h2>如何在 Clash for Windows 里设置和使用全局模式？</h2> <p>对于经常需要在电脑上灵活管理网络连接的朋友来说，Clash for Windows 是一个相当流行的工具。它功能强大，支持多种代理协议，比如常见的 Shadowsocks (SSR)、V2Ray、Trojan 等，并且可以通过订阅链接轻松管理大量节点。不过，初次接触或不熟悉 Clash 各种模式的朋友，可能有时会遇到一些特定的网络需求，比如希望所有流量都经过代理，这时候就需要用到“全局模式”。那么，到底怎么在 Clash for Windows 里设置和使用全高速机场节点推荐局模式呢？这确实是很多朋友常问的问题。</p> <p>理解 Clash 的工作模式是第一步。Clash for Windows 主要提供了几种不同的代理模式：</p> <ul> <li><strong>规则模式 (Rule):</strong> 这是 Clash 最常用也是最推荐的模式。它会根据你订阅配置里的规则列表来判断流量走向。比如访问国内网站就直连，访问国外特定网站就走代理。这种模式兼顾了速度和效率，可以避免不必要的流量绕路。</li> <li><strong>全局模式 (Global):</strong> 在这个模式下，Clash for Windows 会尝试将所有发出的网络连接都通过当前的代理节点。也就是说，不管是访问国内网站还是国外网站，理论上都会走代理。这有点像传统 VPN 的那种“全部流量打包”的方式。</li> <li><strong>直连模式 (Direct):</strong> 顾名思义，这个模式下 Clash 不会启用任何代理，所有流量都直接发出。它相当于临时关闭了代理功能，但 Clash 软件本身仍在运行。</li> </ul> <p>我们今天要重点聊的就是这个“全局模式”。有时候为了测试节点稳定性，或者处理一些不遵守系统代理规则的特定应用程序，可能就需要短暂开启它。了解如何在 Clash for Windows 打开全局模式，能让你在需要时更加灵活地应对。</p> <h3>在 Clash for Windows 中开启全局模式的几种途径</h3> <p>在 Clash for Windows 中切换到全局模式其实并不复杂，通常有以下几种比较直观的方法：</p>
 机场名称：WebVPN

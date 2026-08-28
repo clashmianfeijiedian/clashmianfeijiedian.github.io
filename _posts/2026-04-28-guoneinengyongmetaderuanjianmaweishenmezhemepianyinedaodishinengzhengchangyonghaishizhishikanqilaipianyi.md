@@ -15,10 +15,7 @@ keywords: "clash for a,twitter收不了手机验证码,clash for windows 流量�
 description: ""
 ---
 
-![Clash 推荐图](https://clashjd.github.io/assets/img/机场订阅免费.png)
-
 ## 国内能用meta的软件吗为什么这么便宜呢？到底是能正常用，还是只是看起来便宜
-
 
 <p>很多人第一次接触这类工具，通常不是为了“折腾”，而是遇到一个很现实的问题：<strong>晚上刷视频卡、会议连不上、某些应用一直加载失败</strong>，朋友说装个meta类的软件就能解决，于是开始找资源。结果搜索一圈后会发现，国内能用meta的软件吗为什么这么便宜呢，这个问题经常伴随着另一个疑问：为什么有的订阅便宜到离谱，有的却贵得多？</p>
 

@@ -18,7 +18,6 @@ description: "如何找到可靠的一元机场的订阅链接？
 Bitz Net 测评：老牌服务商，线路优化确实稳
 Bitz Net 是一个运营时间比较久的机场服务商，整体给我的第一印象就是“稳”。它的官网和面板都比较简洁，套餐设计也偏实"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/clash免费订阅.png)
 
 <h2>如何找到可靠的一元机场的订阅链接？</h2>
 机场名称：Bitz Net

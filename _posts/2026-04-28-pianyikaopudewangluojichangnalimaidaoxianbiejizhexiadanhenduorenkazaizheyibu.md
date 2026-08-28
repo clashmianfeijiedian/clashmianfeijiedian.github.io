@@ -15,10 +15,7 @@ keywords: "clash mac版本下载,clash怎么使用windows,为什么clash节点�
 description: ""
 ---
 
-![Clash 推荐图](https://clashjd.github.io/assets/img/机场订阅免费.png)
-
 ## 便宜靠谱的网络机场哪里买到？先别急着下单，很多人卡在这一步
-
 
 <p>很多人第一次找<strong>便宜靠谱的网络机场</strong>，想法都很简单：价格别太贵，能连上就行，最好手机和电脑都能用。可真到用的时候才发现，便宜和靠谱往往不是一回事。前一天还能正常刷网页，第二天晚高峰就开始掉线；刚把节点导进 Clash for Windows，下一秒就提示订阅更新失败；小火箭免费节点看起来能用，实际一连就慢得像在等网页加载十年前的图片。</p>
 

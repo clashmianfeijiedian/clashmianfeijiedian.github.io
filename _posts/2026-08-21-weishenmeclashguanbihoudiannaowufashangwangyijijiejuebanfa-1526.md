@@ -59,8 +59,6 @@ description: "为什么Clash关闭后电脑无法上网？以及解决办法
 <li>**Windows：** 以管理员身份运行“命令提示符”或“PowerShell”，依次输入并回车执行以下命令：
 <p><code>ipconfig /flushdns</code>
 
-![小火箭节点](/img/%E5%B0%8F%E7%81%AB%E7%AE%AD%E8%8A%82%E7%82%B9.png)
-
 </p>
 <p><code>netsh winsock reset</code></p>
 <p><code>netsh int ip reset</code></p>
@@ -121,14 +119,7 @@ description: "为什么Clash关闭后电脑无法上网？以及解决办法
   <tr><td>标准版</td><td>￥24/月</td><td>200GB</td><td>日常追剧/办公</td></tr>
   <tr><td>旗舰版</td><td>￥48/月</td><td>500GB</td><td>高频下载/多设备</td></tr>
 
-
-![clash节点](/img/clash%E8%8A%82%E7%82%B9.png)
-
 </table>
-
-
-
-![clash for windows免费节点](/img/clash%20for%20windows%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9.png)
 
 <table>
   <tr><th>3个免费URL订阅链接</th></tr>
@@ -144,7 +135,6 @@ description: "为什么Clash关闭后电脑无法上网？以及解决办法
 <p>优点是价格亲民、节点够日常、客户端配置简单；缺点也很明确，就是极致性能别抱太高期待，部分长距离节点在晚高峰会有波动。整体来说，米贝分享属于那种“不会特别惊艳，但花小钱能解决大部分需求”的类型，放在推荐列表里确实不算意外。</p>
 
   评分：8.6/10
-
 
 <p>一个好的“机场推荐”通常具备以下特点：</p>
 <ul>

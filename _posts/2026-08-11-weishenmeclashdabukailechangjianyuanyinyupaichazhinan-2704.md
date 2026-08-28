@@ -74,15 +74,7 @@ description: "为什么 Clash 打不开了？常见原因与排查指南
 <h4>1. 客户端版本兼容性</h4>
 <p>确保您使用的 Clash 客户端版本与您的操作系统（Windows, macOS, Linux, Android, iOS）兼容。有时新版本的操作系统可能与旧版本的 Clash 客户端存在兼容性问题。</p>
 
-![clash免费节点](/img/clash%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9.png)
-
-
-
 机场名称：Dler Cloud
-
-
-
-![clash verge节点购买](/img/clash%20verge%E8%8A%82%E7%82%B9%E8%B4%AD%E4%B9%B0.png)
 
 <h2>Dler Cloud 测评：曾经的顶级机场之一，至今依然稳</h2>
 
@@ -111,7 +103,6 @@ description: "为什么 Clash 打不开了？常见原因与排查指南
   <p>评分：8.8/10</p>
   <p>综合评价：适合对稳定性和流媒体体验要求较高的用户，属于“贵一点，但确实值”的类型。</p>
 
-
 <ul>
 <li><strong>检查更新：</strong> 访问 Clash 官方 GitHub 仓库或您使用的第三方客户端的发布页面，下载最新稳定版本。</li>
 <li><strong>卸载重装：</strong> 尝试完全卸载当前版本的 Clash 客户端，然后重新安装最新版本。</li>
@@ -137,9 +128,6 @@ description: "为什么 Clash 打不开了？常见原因与排查指南
   <tr><td>月付基础版</td><td>9.9 元/月</td><td>120GB</td><td>28 个</td></tr>
   <tr><td>月付标准版</td><td>19.9 元/月</td><td>260GB</td><td>46 个</td></tr>
   <tr><td>季付优惠版</td><td>49 元/季</td><td>800GB</td><td>58 个</td></tr>
-
-
-![banner](/img/banner.webp)
 
 </table>
 

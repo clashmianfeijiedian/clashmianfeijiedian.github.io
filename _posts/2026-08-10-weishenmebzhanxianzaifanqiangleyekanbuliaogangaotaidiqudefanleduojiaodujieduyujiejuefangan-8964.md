@@ -41,9 +41,6 @@ description: "为什么B站现在翻墙了也看不了港澳台地区的番了�
   <tr><td>免费 URL 订阅 2</td><td>https://ktmcloud.example.com/sub/free2</td></tr>
   <tr><td>免费 URL 订阅 3</td><td>https://ktmcloud.example.com/sub/free3</td></tr>
 
-
-![clash免费订阅](/img/clash%E5%85%8D%E8%B4%B9%E8%AE%A2%E9%98%85.png)
-
 </table>
 
 <blockquote>
@@ -85,8 +82,6 @@ description: "为什么B站现在翻墙了也看不了港澳台地区的番了�
 <h3>软件配置方法与操作指南</h3>
 <p>选择了合适的节点服务后，正确的软件配置是关键。以目前比较流行的几款工具为例，简要说明其配置方法：
 
-![clash meta免费节点](/img/clash%20meta%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9.png)
-
 </p>
 <h4>Clash 与 Clash for Windows/Mac</h4>
 <p><strong>Clash 节点</strong>的配置通常需要一个订阅链接或配置文件的导入。大多数机场会提供订阅链接，您可以将其直接复制到 Clash 客户端的订阅管理界面中进行添加。客户端会自动下载并更新节点列表。您可以在客户端内选择一个速度较快、延迟较低的节点，并将其设置为系统代理模式。</p>
@@ -110,9 +105,6 @@ description: "为什么B站现在翻墙了也看不了港澳台地区的番了�
 <tr><td>商务版</td><td>￥79/月</td><td>300GB</td></tr>
 <tr><td>企业版</td><td>￥159/月</td><td>800GB</td></tr>
 
-
-![clash verge节点购买](/img/clash%20verge%E8%8A%82%E7%82%B9%E8%B4%AD%E4%B9%B0.png)
-
 </table>
 
 <table>
@@ -132,7 +124,6 @@ description: "为什么B站现在翻墙了也看不了港澳台地区的番了�
 速度：8.8
 流媒体：8.6
 性价比：8.2
-
 
 <ul>
 <li><strong>避免使用免费公共节点：</strong> 这些节点数量庞大但质量不稳定，非常容易被封锁，且可能存在安全隐患。</li>

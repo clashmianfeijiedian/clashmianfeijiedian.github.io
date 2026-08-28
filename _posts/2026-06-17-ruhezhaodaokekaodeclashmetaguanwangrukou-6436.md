@@ -18,7 +18,6 @@ description: "如何找到可靠的 ClashMeta 官网入口？
 蓝胖云 - 节点覆盖较广的性价比品牌。
 蓝胖云给我的第一印象就是“节点多、价格不贵、上手也快”。它主打的不是那种特别花哨的高端配置，而是更偏向日常实用型，适合平时刷视频、看"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/clash订阅节点购买.png)
 
 <h2>如何找到可靠的 ClashMeta 官网入口？</h2>
 机场名称：蓝胖云

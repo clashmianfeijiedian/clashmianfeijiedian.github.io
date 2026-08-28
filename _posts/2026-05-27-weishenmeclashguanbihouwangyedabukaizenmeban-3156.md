@@ -18,7 +18,6 @@ description: "为什么clash关闭后网页打不开，怎么办？
 TAG Internet 老牌一线机场测评
 TAG Internet 给人的第一印象就是“稳”。这家机场算是圈子里比较老牌的一线玩家了，运营时间不短，节点维护"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/节点订阅地址.png)
 
 <h2>为什么clash关闭后网页打不开，怎么办？</h2>
 机场名称：TAG Internet

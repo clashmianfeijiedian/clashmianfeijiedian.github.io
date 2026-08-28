@@ -18,7 +18,6 @@ description: "如何在 clash airport official site 找到可靠的节点服务
 一分机场 - 主打极致性价比的低价品牌
 一分机场给人的第一感觉就是“便宜，但不敷衍”。它走的是极致性价比路线，适合预算不高、但又想要日"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/tiktok机场推荐.png)
 
 <h2>如何在 clash airport official site 找到可靠的节点服务</h2>
 机场名称：一分机场

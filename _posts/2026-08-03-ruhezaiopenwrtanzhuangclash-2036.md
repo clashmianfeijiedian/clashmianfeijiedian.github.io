@@ -14,7 +14,6 @@ tags:
 keywords: "飞机场节点,免费节点,Clash for Windows,Clash 配置文件,机场节点订阅,节点分享,机场节点"
 description: "如何在 OpenWrt 安装 Clash 许多用户希望在 OpenWrt 路由器上部署 Clash，以实现全局代理，统一管理网络流量。本文将为您详细介绍如何在 OpenWrt 系统中安装和配置 Clash，并提供一些实用的建议和经验分享。 "
 ---
-![Clash节点推荐](https://1yuanjichang.github.io/img/what-is-airport.webp)
 
 <h2>如何在 OpenWrt 安装 Clash</h2> <p>许多用户希望在 OpenWrt 路由器上部署 Clash，以实现全局代理，统一管理网络流量。本文将为您详细介绍如何在 OpenWrt 系统中安装和配置 Clash，并提供一些实用的建议和经验分享。</p> <h3>一、准备工作与安装环境</h3> <p>在开始安装之前，请确保您的 OpenWrt 路由器已经成功刷入固件，并且可以正常访问互联网。您需要通过 SSH 客户端（如 PuTTY 或 Xshell）连接到您的 OpenWrt 路由器。确保您的 OpenWrt 版本支持 opkg 包管理工具，这是安装 Clash 的基础。</p> <h4>1. 检查系统环境</h4> <p>通过 SSH 连接到路由器后，可以执行以下命令检查 OpenWrt 的基本信息和可用内存，以确保系统能够顺利运行 Clash：</p> <ul> <li>查看 OpenWrt 版本：<code>cat /etc/openwrt_version</code></li> <li>查看系统信息：<code>uname -a</code></li> <li>查看可用内存：<code>free -m</code></li> </ul> <h4>2. 更新软件包列表</h4> <p>在安装任何新软件之前，建议先更新您的 OpenWrt 系统的软件包列表，以获取最新的软件源信息和软件包版本。</p> <p>执行以下命令：</p>
 机场名称：LUYUYUN(鹿语云)

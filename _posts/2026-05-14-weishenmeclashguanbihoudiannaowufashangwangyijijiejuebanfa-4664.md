@@ -18,7 +18,6 @@ description: "为什么Clash关闭后电脑无法上网？以及解决办法
 Coffee Cloud（咖啡云）测评：性价比路线，咖啡命名节点，支持私有协议
 Coffee Cloud（咖啡云）给人的第一印象就是“很会取名"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/免费clash节点.png)
 
 <h2>为什么Clash关闭后电脑无法上网？以及解决办法</h2>
 机场名称：Coffee Cloud（咖啡云）

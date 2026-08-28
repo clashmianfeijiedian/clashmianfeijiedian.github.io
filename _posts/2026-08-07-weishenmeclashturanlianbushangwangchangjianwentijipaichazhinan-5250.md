@@ -75,7 +75,6 @@ description: "为什么 Clash 突然连不上网？常见问题及排查指南
 </tr>
 </tbody>
 
-
 机场名称：BridgeTheWall（越墙）
 
 <h2>BridgeTheWall（越墙）测评模块</h2>
@@ -93,16 +92,11 @@ description: "为什么 Clash 突然连不上网？常见问题及排查指南
   <tr><td>免费URL订阅链接2</td><td>https://btw-sub2.example.com/url</td></tr>
   <tr><td>免费URL订阅链接3</td><td>https://btw-sub3.example.com/url</td></tr>
 
-
-![小火箭机场](/img/%E5%B0%8F%E7%81%AB%E7%AE%AD%E6%9C%BA%E5%9C%BA.png)
-
 </table>
 
 <p>节点地区这块，BridgeTheWall（越墙）覆盖得还算均衡，常见的有香港、日本、新加坡、美国西海岸和英国节点。实际测试里，香港和日本节点延迟最低，适合开视频会议和网页访问；新加坡节点在晚高峰时也比较稳。流媒体解锁方面，Netflix、Disney+ 和 YouTube Premium 基本都能正常跑，部分美国节点还可以直接解锁 Hulu，属于够用且不折腾的类型。</p>
 
 <blockquote>测速体验：用 500M 宽带在本地测试，香港节点平均延迟 42ms，下载速度跑到 216Mbps；日本节点延迟 58ms，下载约 184Mbps；新加坡节点晚高峰时掉到 132Mbps，但仍然能稳定看 4K。整体没有出现大面积抽风，切节点时响应也快。晚高峰表现算是亮点，20:00 到 23:00 期间，Trojan 节点基本没明显卡顿，SS 节点偶尔会有轻微波动，但不影响正常使用。
-
-![banner](/img/banner.webp)
 
 </blockquote>
 
@@ -169,10 +163,6 @@ description: "为什么 Clash 突然连不上网？常见问题及排查指南
 <blockquote>
 测速体验：本地宽带晚间测速，香港节点平均下载约 312Mbps，延迟 38ms；日本节点在 240Mbps 左右，延迟 52ms；新加坡节点大概 190Mbps，延迟 68ms。实际刷 YouTube 4K 基本秒开，B站外区内容切换也很快。晚高峰 20:00 到 23:00 之间速度会掉一点，但不至于卡到不能用，香港和日本节点依然能稳住 150Mbps 以上，属于中小机场里比较耐打的那类。流媒体方面，Netflix、Disney+、YouTube Premium 解锁正常，部分美区节点也能稳定看 Amazon Prime。缺点是节点数量不算多，遇到高峰时个别冷门节点波动会更明显；优点则是线路干净、响应快、适合追求实际体验的人。
 </blockquote>
-
-![clash verge免费节点](/img/clash%20verge%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9.png)
-
-
 
   <p>综合评分：8.6/10</p>
   <p>推荐指数：适合注重速度、日常使用稳定、对中小型机场接受度高的用户。</p>

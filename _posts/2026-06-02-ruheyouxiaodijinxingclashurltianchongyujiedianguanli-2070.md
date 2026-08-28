@@ -18,7 +18,6 @@ description: "如何有效地进行 Clash URL 填充与节点管理
 WebVPN-年成立，支持加密货币钱包登录及支付。
 WebVPN 是一款偏实用型的机场服务，主打稳定访问和较强的匿名支付体验，支持加密货币钱包登录及支付，这点对注"
 ---
-![Clash节点推荐](https://clashjd.github.io/assets/img/最新机场推荐.png)
 
 <h2>如何有效地进行 Clash URL 填充与节点管理</h2>
 机场名称：WebVPN

@@ -35,10 +35,6 @@ description: "为什么Clash开启TUN模式会断网，有什么解决办法？
   <tr><td>旗舰版</td><td>¥128/月</td><td>2TB</td><td>多设备家庭共享更划算</td></tr>
 </table>
 
-
-
-![banner](/img/banner.webp)
-
 <table>
   <tr><th>免费URL订阅链接</th></tr>
   <tr><td>https://sub.flyingbird-example.com/url/7fA2x9</td></tr>
@@ -46,13 +42,7 @@ description: "为什么Clash开启TUN模式会断网，有什么解决办法？
   <tr><td>https://sub.flyingbird-example.com/url/Tx91Ld</td></tr>
 </table>
 
-![clash verge节点购买](/img/clash%20verge%E8%8A%82%E7%82%B9%E8%B4%AD%E4%B9%B0.png)
-
-
-
 <p>节点地区方面，当前可用节点主要集中在香港、日本、新加坡、台湾和美国西海岸，亚洲线路延迟普遍比较低，香港节点大概在 28-40ms，日本节点 55-75ms，新加坡节点略高一点但依旧稳定。流媒体解锁也算亮眼，Netflix、Disney+、YouTube Premium 基本都能正常识别，日区和港区资源切换也比较顺滑。高峰时段在晚上 8 点到 10 点之间，速度会有小幅波动，但没出现明显掉速或频繁断流的情况。
-
-![泰山net](/img/%E6%B3%B0%E5%B1%B1net.png)
 
 </p>
 

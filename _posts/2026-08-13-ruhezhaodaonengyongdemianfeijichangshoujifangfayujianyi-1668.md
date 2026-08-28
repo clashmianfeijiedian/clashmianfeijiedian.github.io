@@ -31,10 +31,6 @@ description: "如何找到能用的免费机场收集？方法与建议
 <tr><td>旗舰版</td><td>¥68/月</td><td>800GB</td><td>8台</td></tr>
 </table>
 
-![clash for android](/img/clash%20for%20android.png)
-
-
-
 <table>
 <tr><td>免费URL订阅1</td><td>https://sub.immortalcloud.example/free1</td></tr>
 <tr><td>免费URL订阅2</td><td>https://sub.immortalcloud.example/free2</td></tr>
@@ -98,16 +94,9 @@ description: "如何找到能用的免费机场收集？方法与建议
 <blockquote>
 测速体验：我在晚间 8 点左右测了三次，香港节点下载速度大概在 320Mbps 左右，日本节点稳定在 280Mbps，上行也有 40Mbps 上下。Ping 值方面，香港最低 28ms，日本大概 52ms，美国西海岸在 145ms 左右。实际打开网页几乎秒开，4K 视频拖动进度条也没怎么卡。晚高峰时段偶尔会有小幅抖动，但整体还是属于高带宽线路里表现比较顺眼的那类。缺点是个别冷门地区节点不算多，另外新用户刚上手可能要自己花点时间挑线路。
 
-
-![clash节点推荐](/img/clash%E8%8A%82%E7%82%B9%E6%8E%A8%E8%8D%90.png)
-
 </blockquote>
 
 综合评分：8.6/10。优点是速度快、线路稳、价格不算高，流媒体解锁也比较到位；缺点是节点分布还可以再丰富一点。整体来看，杜卡迪机场更适合对带宽要求高、但又不想折腾的人。
-
-![clash订阅](/img/clash%E8%AE%A2%E9%98%85.png)
-
-
 
 </p>
 <table>
@@ -136,7 +125,6 @@ description: "如何找到能用的免费机场收集？方法与建议
 <td>风险未知，可能存在监控或劫持</td>
 <td>通常更注重用户隐私和安全</td>
 </tr>
-
 
 机场名称：Mete机场
 
