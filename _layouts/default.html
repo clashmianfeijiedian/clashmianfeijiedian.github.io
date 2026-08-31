@@ -40,5 +40,152 @@
     
     <!-- 脚本 -->
     <script src="/assets/js/main.js"></script>
+<!-- 弹窗样式与脚本开始 -->
+<style>
+  #popupOverlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  #popupOverlay.show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .popup-content {
+    background: #fff;
+    padding: 24px 28px;
+    border-radius: 12px;
+    max-width: 100%;
+    width: 50%;
+    max-width: 560px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+
+
+
+  .popup-link-btn {
+    display: block;
+    width: 100%;
+    background: #fff;
+    color: #1f2937;
+    font-weight: bold;
+    padding: 16px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.3s;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+    border: 2px solid #e5e7eb;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+
+  .popup-link-btn:hover {
+    border-color: #e11d48;
+    color: #e11d48;
+  }
+
+  .popup-main-btn {
+    background: #e11d48;
+    color: #fff;
+    border-color: #e11d48;
+  }
+
+  .popup-main-btn:hover {
+    background: #be123c;
+    color: #fff;
+  }
+
+  .popup-shop-btn {
+    display: inline-block;
+    width: 100%;
+    background: #e11d48;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 18px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background 0.3s;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+
+  .popup-shop-btn:hover {
+    background: #be123c;
+  }
+
+  /* 移动端适配 */
+  @media (max-width: 768px) {
+    .popup-content {
+      width: 92%;
+      max-width: 420px;
+      padding: 15px 20px;
+    }
+
+  }
+</style>
+
+<!-- 弹窗 HTML 结构 -->
+<div id="popupOverlay">
+  <div class="popup-content">
+    <div style="display: flex; flex-direction: column; gap: 0.8rem;">
+      <!-- 主推机场 -->
+      <a href="https://j134.net/?code=Wohf" target="_blank" class="popup-link-btn popup-main-btn">
+        ⭐ 疾风云 · 稳定快速节点多
+      </a>
+
+      <!-- 备用机场 -->
+      <a href="https://ml.yfqz1.net/register?code=PCC6A3bC" target="_blank" class="popup-link-btn">
+        杨帆云 · 超便宜
+      </a>
+
+      <!-- 分割线 -->
+      <div style="border-top: 1px solid #f3f4f6; padding-top: 0.8rem;">
+        <a href="https://shop.xinkonyun.cc/" target="_blank" class="popup-shop-btn">
+          🛒 购买 Shadowrocket 独享账号/海外其他账号
+        </a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- 弹窗控制脚本 -->
+<script>
+  (function() {
+    const popupOverlay = document.getElementById('popupOverlay');
+
+    // 页面解析完后先渲染网页，再延迟弹出
+    window.addEventListener('DOMContentLoaded', function() {
+      setTimeout(function() {
+        popupOverlay.classList.add('show');
+      }, 300);
+    });
+
+
+    // 点击遮罩层不关闭（强制引导），如需点击遮罩关闭可取消下面注释
+    /*
+    popupOverlay.addEventListener('click', function(e) {
+      if (e.target === popupOverlay) {
+        popupOverlay.classList.remove('show');
+      }
+    });
+    */
+  })();
+</script>
+<!-- 弹窗样式与脚本结束 -->
 </body>
 </html>
